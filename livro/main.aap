@@ -1,0 +1,6 @@
+all : pdf
+
+pdf: indice-remissivo.txt livro.txt prefacio.txt capitulos/*.txt
+  :sys ~/ambiente/asciidoc-8.6.8/a2x.py -v -f pdf -D ../pdf -a docinfo1 --dblatex-opts "-P insert.xref.page.number=yes" livro.txt
+
+

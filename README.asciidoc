@@ -1,0 +1,27 @@
+introducao-a-computacao-livro
+==========================
+
+Livro de Introdução a Computação - Computação - EAD - UFPB
+
+== Linguagem de escrita
+
+O livro está sendo escrito utilizando a linguagem asciidoc:
+
+http://powerman.name/doc/asciidoc
+
+=== Ferramentas
+
+No windows usar o github for windows: http://github-windows.s3.amazonaws.com/GitHubSetup.exe
+
+Editor de texto: http://www.sublimetext.com/
+
+Plugin-in-assciidoc: https://github.com/SublimeText/AsciiDoc (ver instruções de instalação)
+
+aap maker: http://www.a-a-p.org/
+
+==== Gerando versão pdf
+
+ aap pdf
+
+WARNING: Certifique-se de que existe o diretório: '../pdf'
+

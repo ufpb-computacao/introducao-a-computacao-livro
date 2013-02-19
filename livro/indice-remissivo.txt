@@ -1,0 +1,10 @@
+[[indice-remissivo]]
+[index]
+Índice Remissivo
+================
+////////////////////////////////////////////////////////////////
+O índice é gerado automaticamente, a partir do texto escrito,
+ver exemplo em: 
+http://www.methods.co.nz/asciidoc/book.txt
+http://www.methods.co.nz/asciidoc/book.html
+////////////////////////////////////////////////////////////////
