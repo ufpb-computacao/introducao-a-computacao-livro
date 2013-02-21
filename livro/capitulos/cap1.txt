@@ -1,3 +1,321 @@
-== Introdução a algo ==
+== História dos computadores
 
 Texto aqui aqui.
+
+=== Precursores dos computadores
+
+Texto aqui aqui.
+
+==== Ábaco
+
+O ábaco foi um dos primeiros instrumentos criados para auxiliar os humanos na 
+realização cálculos. Muitos atribuem à China a criação do ábaco, mas temos
+evidências do ábaco na Babilônia no ano 300 AC.
+
+.Ilustração de um ábaco
+image::images/abaco.png[scaledwidth="50%"]
+
+Percebam que o ábaco pode ser visto como uma representação dos dedos humanos,
+onde as bolas de cima representam as mãos, e as de baixo os dedos.
+
+
+.Charge sobre ábaco e computadores
+image::images/abaco-charge.png[scaledwidth="50%"]
+
+TIP: Você pode conhecer um pouco mais sobre o ábaco
+no seguinte site: http://www.educacaopublica.rj.gov.br/oficinas/matematica/abaco/03.html
+
+==== Ossos de Napier
+
+// http://www.educ.fc.ul.pt/icm/icm99/icm17/napier.htm
+
+Em 1614, John Napier (lê-se Neper) descrobriu os cálculos logaritmos. 
+
+
+[quote, Lord Moulton]
+"A invenção dos logaritmos surgiu no mundo como um relâmpago. Nenhum trabalho 
+prévio anunciava ou fazia prever a sua chegada. Surge isolada e abruptamente 
+no pensamento humano sem que se possa considerar consequência de obras ou de 
+pesquisas anteriores"
+
+Napier também inventou o que ficou conhecido por "Ossos de Naiper" 
+(<<ossos_de_napier>>), que auxiliar a realização de multiplicação baseados na
+teoria de algoritimos.
+
+[[ossos_de_napier]]
+.Ilustração dos Ossos de Napier.
+image::images/napier-ossos-tabuleiro.png[scaledwidth="50%"]
+
+.Ilustração da operação de multiplicação utilizando os ossos de Napier: 46785399 x 7.
+image::images/napier-multiplicacao-46785399x7.png[scaledwidth="100%"]
+
+NOTE: Para conhecer como os ossos de Napier funciona consulte (em inglês):
+http://en.wikipedia.org/wiki/Napier%27s_bones
+
+A criação da Régua de Cálculo (<<regua_calculo>>) em 1632 na Inglaterra foi 
+diretamente influenciada pelos Ossos de Napier. Esta régua chegou a ser 
+utilizada pelos engenheiros da NASA, na década de 1960, nos programas que 
+levaram o Homem a Lua.
+
+[[regua_calculo]]
+.Régua de Cálculo
+image::images/regua-de-calculo.jpg[scaledwidth="70%"]
+
+
+
+==== As rodas dentadas de Pascal (Pascaline)
+// http://www.computersciencelab.com/ComputerHistory/History.htm
+// http://www.thocp.net/biographies/pascal_blaise.html
+// http://www.thocp.net/hardware/pascaline.htm
+// http://therese.eveilleau.pagesperso-orange.fr/pages/truc_mat/textes/pascaline.htm#haut
+
+Em 1642, o Francês *Blaise Pascal*, aos 19 anos foi o primeiro a inventar um 
+dispositivo mecânico para realização de cálculos. O dispositivo é conhecido 
+como 'As rodas dentadas de Pascal' (ou Pascaline, <<pascaline>>).
+
+Pascal era filho de um cobrado de impostos e auxiliava o pai na realização
+de cálculos utilizando um instrumendo similar ao ábaco. Mas segundo ele, o
+trabalho era muito entediante, isto o levou a elaborar um dispositivo para
+realização de somas e subtração.
+
+[[pascaline]]
+.Pascaline de 8 dígitos aberta (em cima), mostrando as engrenagens. E ela fechada (em baixo), mostrando como era apresentada.
+image::images/pascaline.jpg[scale=50]
+// http://calmeca.free.fr/calculmecanique_php/illustrations_texte/pascaline.jpg
+
+O mecanismo de funcionamento (<<pascaline_funcionamento>>) é o mesmo utilizado
+até hoje nos odômetros de carros, engrenagens são ligadas de tal forma a simular
+o "vai um" para a próxima casa decimal nas operações de adição.
+
+[[pascaline_funcionamento]]
+.Imagem do vídeo demonstrando funcionamento da máquina Pascaline: http://therese.eveilleau.pagesperso-orange.fr/pages/truc_mat/textes/pascaline.htm
+image::images/pascaline-video.png[scale=50]
+
+As operações de soma eram realizadas girando as engrenagens em um sentido,
+as operações de subtração eram realizadas invertendo o sentido, enquanto que as 
+operações de multiplicação utilizavam vários giros da soma manualmente.
+
+O surgimento da pascaline, no entanto, não agradou a todos, alguns empregados
+queriam destruir a máquina com medo de perder seus empregos.
+
+TIP: Você pode consultar a biografia de Pascal em: http://www.thocp.net/biographies/pascal_blaise.html
+
+==== Leibniz - A primeira calculadora com quatro operações
+
+(((Calculadora)))
+
+// http://www.computersciencelab.com/ComputerHistory/HistoryPt2.htm
+
+Em 1672, o Alemão 'Gottfried Wilhelm Leibniz' foi o primeiro a inventar uma 
+calculadora que realizava as 4 operações básicas (adição, subtração, 
+multiplicação e divisão). A adição utilizava um mecanismo baseado na Pascaline,
+mas as operações de multiplicação realizava a sequência de somas automáticas.
+
+Leibniz também foi o primeiro a defender a utilização do *sistema binário*, que
+é fundamental nos computadores digitais que utilizamos hoje.
+
+(((Sistema binários)))
+
+==== Máquinas Programadas
+
+Um marco na história foi a invenção de máquinas programáveis, que tinha o
+funcionamento diferente de acordo com uma programação fornecida.
+
+===== Tear de Jacquard
+// http://www.computersciencelab.com/ComputerHistory/HistoryPt2.htm
+
+
+Em 1804 o Francês Joseph Marie *Jacquard* inventou uma máquina de tear
+que trancava o tecido de acordo com uma programação que era fornecida
+através de furos num cartão. 
+
+.Máquina de tear usando programação através de cartões perfurados.
+image::images/JacquardLoom.jpg[scale=50]
+
+A invenção de Jacquard revolucionou a industria de tecido e, em 1806, ela foi
+declarada propriedade pública e ele foi recompensado com uma pensão e 
+'royaltys' por cada máquina que fosse construída.
+
+
+.Esquerda: Jacquard perfurando os cartões. Direita: cartões perfurados.
+image::images/JacquardCard.jpg[scale=50]
+
+
+
+
+===== A Máquina Diferencial 
+Em 1882 
+
+===== Máquina Analítica
+Texto aqui aqui.
+
+
+===== A Primeira Programadora
+Texto aqui aqui.
+
+=== Linha do tempo
+
+em construção
+
+.Linha do tempo
+["graphviz", "contexto-edfisica.png"]
+---------------------------------------------------------------------
+digraph automata_0 {
+  rankdir=LR;
+  node [shape = box];
+
+  abaco [label="Ábaco\n(300AC)", style=bold];
+  napier [label="Ossos de Napier\n(1614)"];
+  regua [label="Régua de Cálculo\n(1632)"];
+  pascal [label="(Pascaline)\n(1642)"];
+
+  leibniz [label="Calculadora 4 op\n(1672)", style=bold];
+  jacquard [label="Tear de Jacquard \n(1804)"];
+
+  abaco -> napier
+  napier -> regua
+  regua -> pascal
+  pascal -> leibniz
+  leibniz -> jacquard
+  
+}
+---------------------------------------------------------------------
+
+
+=== Os computadores
+Texto aqui aqui.
+
+==== Computadores da Primeira Geração (1940s – 1950s)
+Texto aqui aqui.
+
+==== Computadores da Segunda Geração (1940s – 1950s)
+Texto aqui aqui.
+
+==== Computadores da Terceira Geração (1940s – 1950s)
+Texto aqui aqui.
+
+==== Computadores da Quarta Geração (1940s – 1950s)
+
+First Generation Computers (1940s – 1950s)
+Second Generation Computers (1955 – 1960)
+Third Generation Computers (1960s)
+Fourth Generation Computers (1971 – present)
+
+
+
+// Referencias: 
+// http://www.historyofcomputer.org/
+// Notas de aulas de raimundo nóbrega
+// http://www.computersciencelab.com/ComputerHistory/History.htm
+
+// http://www.thocp.net/hardware/pascaline.htm
+
+
+
+
+
+== Representação da informação
+Texto aqui aqui.
+
+=== Representação binária
+Texto aqui aqui.
+
+=== Representação de formas geométricas
+Texto aqui aqui.
+
+
+
+Mostrar por exemplo que para representar desenhos bastaria algo do tipo:
+
+forma=quadrado, lado=3, posição x=0,y=0
+
+forma=circulo,  raio=3, posição x=10,y=20
+
+forma=retangulo,  base=40, altura=30, posição x=100,y=300
+
+=== Representação de imagens vetoriais
+Texto aqui aqui.
+
+Imagens vetoriais poderiam ser representadas a partir de um conjunto de 
+representações geométricas, Ex:
+
+Pontos da figura: (0,0), 
+
+=== Representação de imagens utilizando ASCII
+
+Texto, Ascii art.
+
+.Cachorro desenhado utilizando apenas caracteres ASCII.
+...................................
+
+   ,                    ," e`--o
+   ((                   (  | __,'
+    \\~----------------' \_;/
+    (                      /
+    /) ._______________.  )
+   (( (               (( (
+    ``-'               ``-'
+...................................
+
+
+[[tabuleiro_dama]]
+=== Representação de tabuleiro de damas
+
+image::images/jogo-damas.png[]
+
+.Representação das peças no tabuleiro: `B' são as peças brancas, `P' as pretas e `.' as casas vazias.
+...............................................................................
+
+           B.B.B.B.
+           .B.B.B.B
+           B.B.B.B.
+           ........
+           ........
+           .P.P.P.P
+           P.P.P.P.
+           .P.P.P.P
+
+...............................................................................
+
+
+=== Representação de fotografias
+
+
+Similar a representação do tabuleiro, mas cada posição equivale a
+uma tonalidade de cor.
+
+
+.Fotografia mostrando as tonalidades de cada ponto.
+image::images/senna.jpg[scaledwidth="60%"]
+
+
+
+=== Representação de músicas
+Texto aqui aqui.
+
+
+==== Músicas MID
+Toques de celular antigos, somente as notas musicais.
+
+.Partitura da música Marcha Soldado.
+image::images/partitura.png[scaledwidth="60%"]
+
+==== Músicas MP3
+Instrumento e voz.
+
+
+
+
+=== Atividades
+. Represente os números 3198, 733 5623 e 62856 no ábaco abaixo:
+
+ 4 figuras de ábaco aqui
+
+. Neste capítulo vimos uma representação do tabuleiro de damas 
+(<<tabuleiro_dama>>), como você representaria de modo diferente o mesmo
+ tabuleiro?
+
+// respostas esperadas: 
+// - utilizando as letras e numeros
+// - através de um vetor com as peças
+// - um caracter, pois são necessários apenas 64x3 bits
