@@ -24,14 +24,20 @@ aap maker: http://www.a-a-p.org/
 
 WARNING: Certifique-se de que existe o diretório: '../pdf'
 
-=== TODO
+=== TODO e FIXME
 
 Sempre que houver algo pendente, você pode adiconar um comentário TODO no texto,
 por exemplo:
 
  // TODO Fazer uma ponte para o próximo capítulo.
 
+O FIXME é utilizado para algo que está errado e precisa ser corrigido, 
+geralmente resultado de uma revisão:
+
+ // FIXME Este parágrafo não expressa idéias com clareza.
+
 Em seguida, podemos utilizar o comando 'grep' para encontrar estas anotações:
 
- grep -n TODO -r capitulos/ --color
+ grep -n -E "TODO|FIXME" -r capitulos/ --color
+
 
