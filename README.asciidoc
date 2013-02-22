@@ -24,3 +24,14 @@ aap maker: http://www.a-a-p.org/
 
 WARNING: Certifique-se de que existe o diretório: '../pdf'
 
+=== TODO
+
+Sempre que houver algo pendente, você pode adiconar um comentário TODO no texto,
+por exemplo:
+
+ // TODO Verificar a vericidade destes números
+
+Em seguida, podemos utilizar o comando 'grep' para encontrar estas anotações:
+
+ grep -n TODO -r capitulos/ --color
+
