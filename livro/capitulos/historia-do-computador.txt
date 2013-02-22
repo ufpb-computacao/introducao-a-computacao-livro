@@ -83,13 +83,18 @@ realização de somas e subtração.
 image::images/pascaline.jpg[scale=50]
 // http://calmeca.free.fr/calculmecanique_php/illustrations_texte/pascaline.jpg
 
-O mecanismo de funcionamento (<<pascaline_funcionamento>>) é o mesmo utilizado
+O mecanismo de funcionamento é o mesmo utilizado
 até hoje nos odômetros de carros, engrenagens são ligadas de tal forma a simular
 o "vai um" para a próxima casa decimal nas operações de adição.
 
-[[pascaline_funcionamento]]
-.Imagem do vídeo demonstrando funcionamento da máquina Pascaline: http://therese.eveilleau.pagesperso-orange.fr/pages/truc_mat/textes/pascaline.htm
-image::images/pascaline-video.png[scale=50]
+[TIP]
+=================
+Existe um anamação demonstrando o funcionamento da máquina pascaline, você pode 
+acessa-lo através do seguinte link: 
+http://therese.eveilleau.pagesperso-orange.fr/pages/truc_mat/textes/pascaline.htm.
+
+image::images/pascaline-video.png[scaledwidth="50%"]
+=================
 
 As operações de soma eram realizadas girando as engrenagens em um sentido,
 as operações de subtração eram realizadas invertendo o sentido, enquanto que as 
@@ -130,14 +135,14 @@ que trancava o tecido de acordo com uma programação que era fornecida
 através de furos num cartão. 
 
 .Máquina de tear usando programação através de cartões perfurados.
-image::images/JacquardLoom.jpg[scale=50]
+image::images/JacquardLoom.jpg[scaledwidth="50%"]
 
 A invenção de Jacquard revolucionou a industria de tecido e, em 1806, ela foi
 declarada propriedade pública e ele foi recompensado com uma pensão e 
 'royaltys' por cada máquina que fosse construída.
 
 .Esquerda: Jacquard perfurando os cartões. Direita: cartões perfurados.
-image::images/JacquardCard.jpg[scale=50]
+image::images/JacquardCard.jpg[scaledwidth="50%"]
 
 ===== A Máquina Diferencial 
 
@@ -188,6 +193,7 @@ Nenhum dos dois projetos de Babbage foram concluídos, a máquina analítica se
 fosse construída teria o tamanho de uma locomotiva.
 
 ===== A Primeira Programadora
+
 A condessa de Lovelace, Ada Byron, se interessou pela máquina analítica de 
 Babbage e se comunicava comunicava com ele através de cartas e encontros.
 Ela passou a escrever programas que a máquina poderia ser capaz de executar,
@@ -234,9 +240,21 @@ digraph automata_0 {
 
 
 === Os computadores
+
 Texto aqui aqui.
 
-==== Computadores da Primeira Geração (TODO-TODO)
+
+// As datas das gerações mudam conforme a fonte consultada. 
+// Estou utilizando as datas da primeira fonte.
+
+// Fonte: ecomputernotes.com/fundamental/introduction-to-computer/what-are-different-computer-generations-explain-in-brief
+// 1 (1946-1954)        2 (1955-1964)        3 (1964-1977)        4 (1977-1991)     5 (1991-?)
+// Documento do word:
+// 1 (1951-1958)        2 (1959-1964)        3 (1965-1970)        4 (1971-atualmente)
+// http://www.itsavvy.in/computer-generations
+// 1 (1946)        2 (1955)        3 (1964)        4 (1975)     5(1990s)
+
+==== Computadores da Primeira Geração (1946-1954)
 
 // Válvulas: http://www.lsi.usp.br/~chip/como_funcionam.html
 // http://www.cs.sun.ac.za/museum/gen1.html
@@ -266,9 +284,24 @@ Nenhum dos computadores da primeira geração possuiam aplicação comercial, er
 utilizados para fins balísticos, predição climática, cálculos de energia atômica
 e outros fins científicos.
 
-// TODO BUG
+[NOTE]
+.O primeiro *bug* da história
+========================
+A palavra *bug* (do inglês inseto) atualmente é empregada para designar um 
+defeito, geralmente de software. Mas sua utilização com este sentido remonta 
+a esta época. Conta a história que um dia o computador apresentou defeito, ao 
+investigar a causa verificou-se que entrou um inseto no computador prejudicando 
+o funcionamento. A foto baixo supostamente indica a presença do primeiro bug.
 
-==== Computadores da Segunda Geração (TODO-TODO)
+image::images/bug.png[scaledwidth="50%"]
+
+Até hoje os insetos costumam invadir os equipamentos eletrônicos, portanto
+observe-os atentamente, evite deixar comida próximo a eles e nunca
+deixe de utiliza-los por um longo período.
+========================
+
+
+==== Computadores da Segunda Geração (1955-1964)
 
 // http://www.cs.sun.ac.za/museum/gen2.html
 // http://ecomputernotes.com/fundamental/introduction-to-computer/what-are-different-computer-generations-explain-in-brief
@@ -281,20 +314,21 @@ outras vantagens: não exigiam tempo de pré-aquecimento, consumiam
 menos energia, geravam menos calor e eram mais rápidos e confiáveis. No final 
 da década de 50 os transistores foram incorporados aos computadores.
 
-.Circuito integrado com vários transistores (esquerda), comparação da válvula com circuito integrado (direita).
+TIP: Para saber mais sobre o funcionamento dos transistores consulte http://www.agostinhorosa.com.br/artigos/transistor-indice.html.
+
+.Circuito com vários transistores (esquerda). Comparação do circuito com válvulas (canto superior-direito) com um circuito composto de transistores (inferior-direito).
 image::images/transistor-e-valvula-juntos.png[scaledwidth="50%"]
 
-
-
-Na segunda geração o conceito de Unidade de Procedimento (CPU), memória, 
+Na segunda geração o conceito de Unidade Central de Procedimento (CPU), memória, 
 linguagem de programação e entrada e saída foram desenvolvidos. O tamanho
 dos computadores diminuiram consideravelmente. Outro desenvolvimento importante 
 foi a mudança da linguagem de máquina para a linguagem assembly, também 
-conhecidas como linguagens simbólicas. A linguagem assembly usa abreviações
-para instruções (por exemplo L, para LOAD) em vez de números.
+conhecidas como linguagens simbólicas. A linguagem assembly possibilita a
+utilização de mnemônicos para representar as instruções de máquina. 
 
 .Computadores IBM da segunda geração.
 image::images/IBM_segunda_geracao.png[scaledwidth=70%]
+
 
 Em seguida vieram as linguagens de alto nível, como, por exemplo, 
 Fortran e Cobol. Ainda surgiu o armazenamento em disco, complementando 
@@ -303,33 +337,107 @@ aos dados desejados.
 
 
 
-==== Computadores da Terceira Geração (TODO-TODO)
-Texto aqui aqui.
+
+==== Computadores da Terceira Geração (1964-1977)
+// http://www.historyofcomputer.org/
+// http://www.ebbemunk.dk/misc/ibm360.html
+// http://www.computersciencelab.com/ComputerHistory/HistoryPt3.htm
+// ecomputernotes.com/fundamental/introduction-to-computer/what-are-different-computer-generations-explain-in-brief
+
+A terceira geração de computadores é marcada pela utilização dos
+*circuitos integrados*, feitos de silício. Também conhecidos como *microchips*,
+eles eram construídos integrando um grande número de transistores, 
+possibilitando a construção de equipamentos menores e mais baratos.
+
+.Comparação do tamanho do circuito integrado com moeda americana da época.
+image::images/circuito-integrado-comparacao-de-tamanho.jpg[scaledwidth="30%"]
+
+// http://www.computersciencelab.com/ComputerHistory/HistoryPt3.htm
+Mas o diferencial dos circuitos integrados não era o apenas o tamanho, o 
+processo de fabricação possibilitava a construção de vários curcuitos 
+simultaneamente, possibilitando a produção em massa. Este avanço pode ser 
+comparado com ao advento da impressa, que revolucionou a produção dos livros.
+
+[NOTE]
+==========================
+Didaticamente os circuitos integrados são categorizados de acordo com a 
+quantidade de integração que eles possuem:
+
+//TODO verificar os valores de integração de LSI, VLSI e ULSI
+
+- LSI (Large Scale Integration - 100 transistores): computadores da terceira geração
+- VLSI (Very Large Scale Integration - 1.000 transistores): computadores da quarta geração
+- ULSI (Ultra-Large Scale Integration - milhões de transistores): computadores da quinta geração
+
+==========================
+
+Um computador que representa esta geração foi o 'IBM’s System/360', voltada
+para o setor comercial e científico. Ele possuia um arquitetura plugável,
+o cliente poderia substituir as peças que dessem defeitos. Além disso, um
+conjunto de periféricos poderia serem adquirido conforme a necessidade.
+
+.Arquitetura plugável da série 360 da IBM.
+image::images/ibm-360-arquitetura-plugavel.jpg[scaledwidth="65%"]
+
+A IBM, que até então liderava o mercado de computadores, passou a perder espaço 
+quando concorrentes passaram a vender periféricos mais baratos e que eram 
+compatíveis com sua arquitetura. No final desta geração já começaram a sugir os 
+computadores pessoais (<<apple_I>>).
+
+// Página do leilão: http://www.breker.com/english/index.htm
+[[apple_I]]
+.Computador Apple I. Foram construídos apenas 200 deles, foram vendidos por US$ 666,66 dólares -- o monitor necessitava ser adquirido separadamente. Em novembro de 2012 um deles foi leiloado por US$ *640.000,00* dólares.
+image::images/apple-I.jpg[scaledwidth="60%"]
+
+Outro evento importante desta época foi que a IBM passou a separar a criação 
+de hardware do desenvolvimento de sistemas, iniciando o mercado da indústria 
+de softwares. Estes computadores já utilizavam linguagens de alto nível.
 
 
-By the development of a small chip consisting of the capacity of the
-300 transistors. These ICs are popularly known as Chips. A single IC has many 
-transistors, registers and capacitors built on a single thin slice of silicon. 
-So it is quite obvious that the size of the computer got further reduced. 
-Some of the computers developed during this period were IBM-360, ICL-1900, 
-IBM-370, and VAX-750. Higher level language such as BASIC (Beginners All 
-purpose Symbolic Instruction Code) was developed during this period.  
-Computers of this generation were small in size, low cost, large memory and 
-processing speed is very high. Very soon ICs Were replaced by LSI (Large 
-Scale Integration), which consisted about 100 components. An IC containing 
-about 100 components is called LSI.
+// By the development of a small chip consisting of the capacity of the
+// 300 transistors. These ICs are popularly known as Chips. A single IC has many 
+// transistors, registers and capacitors built on a single thin slice of silicon. 
+// So it is quite obvious that the size of the computer got further reduced. 
+// Some of the computers developed during this period were IBM-360, ICL-1900, 
+// IBM-370, and VAX-750. Higher level language such as BASIC (Beginners All 
+// purpose Symbolic Instruction Code) was developed during this period.  
+// Computers of this generation were small in size, low cost, large memory and 
+// processing speed is very high. Very soon ICs Were replaced by LSI (Large 
+// Scale Integration), which consisted about 100 components. An IC containing 
+// about 100 components is called LSI.
 
 
 
 
-==== Computadores da Quarta Geração (TODO-TODO)
+==== Computadores da Quarta Geração (1977-1991)
 
-First Generation Computers (1940s – 1950s)
-Second Generation Computers (1955 – 1960)
-Third Generation Computers (1960s)
-Fourth Generation Computers (1971 – present)
+Os computadores da quarta geração são reconhecidos pelo surgimento dos 
+processadores -- unidade central de processamento. Os sistemas operacionais
+como MS-DOS, UNIX, Apple’s Macintosh foram construídos. Linguagens de 
+programação orientada a objeto como C++ e Smalltalk foram desenvolvidas.
+Discos rígidos eram utilizados como memória secundária. Impressoras matriciais,
+e os teclados com os layouts atuais foram criados nesta época.
+
+Os computadores eram mais confiáveis, mais rápidos, menores e com maior 
+capacidade de armazenamento. Este geração é marcada pela venda de computadores
+pessoais (<<quarta_geracao>>).
+
+[[quarta_geracao]]
+.Computador pessoal da quarta geração.
+image::images/computador-quarta-geracao.jpg[scaledwidth="30%"]
 
 
+
+==== Comptuadores da Quinta Geração (1991 -- dias atuais)
+
+Os computadores da quinta geração usam processadores com milhões de 
+transistores. Surgiram as arquiteturas de 64 bits. Os processadores utilizam
+tecnologias RISC e CISC. Disco rígido com capacidade superior a 600GB, 
+pen-drivers com mais de 1GB de memória. Esta geração está sendo marcada pela 
+inteligencia artificial.
+
+.Computador da quinta geração.
+image::images/computador-quinta-geracao.jpg[scaledwidth="30%"]
 
 // Referencias: 
 // http://www.historyofcomputer.org/
