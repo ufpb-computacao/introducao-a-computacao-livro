@@ -29,7 +29,7 @@ WARNING: Certifique-se de que existe o diretório: '../pdf'
 Sempre que houver algo pendente, você pode adiconar um comentário TODO no texto,
 por exemplo:
 
- // TODO Verificar a vericidade destes números
+ // TODO Fazer uma ponte para o próximo capítulo.
 
 Em seguida, podemos utilizar o comando 'grep' para encontrar estas anotações:
 
