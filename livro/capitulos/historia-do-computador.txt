@@ -136,26 +136,70 @@ A invenção de Jacquard revolucionou a industria de tecido e, em 1806, ela foi
 declarada propriedade pública e ele foi recompensado com uma pensão e 
 'royaltys' por cada máquina que fosse construída.
 
-
 .Esquerda: Jacquard perfurando os cartões. Direita: cartões perfurados.
 image::images/JacquardCard.jpg[scale=50]
 
-
-
-
 ===== A Máquina Diferencial 
-Em 1882 
+
+// http://www.computersciencelab.com/ComputerHistory/HistoryPt2.htm
+
+Em 1822, o matemático inglês Charles Babbage propos a construção de uma
+máquina de calcular que ocuparia uma sala inteira. O propósito da máquina
+seria de corrigir os erros das tabelas de logarítmos, muito utilizada
+pelo governo britânico devido as grandes navegações.
+A construção da máquina, no entanto, excedeu em orçamento e tempo na sua
+construção, foi inclusive o projeto mais caro que o governo britânico 
+já havia financiado. Eventualmente os subsídios foram retirados e o projeto
+abortado.
+
+
+.Pequena seção da máquina diferencial de 'Charles Babbage'.
+image::images/babbage-maquina-diferencial.jpg[scaledwidth="30%"]
+
 
 ===== Máquina Analítica
-Texto aqui aqui.
 
+Após a inacabada máquina diferencial, em 1837 Charles Babbage anunciou
+um projeto para construção da 'Máquina Analítica'. Influenciado pelo tear de 
+Jacquard, Babbage propos uma máquina de propósito genérico, utilizando uma
+programação através de cartões perfurados.
+
+Babbage trouxe um grande avanço intelectual na utilização de cartões perfurados,
+enquanto Jacquard utilizava os cartões apenas para acionar ou desativar o 
+funcionamento uma determinada seção da máquina de tear, Babbage percebeu
+que os cartões poderiam ser utilizados para armazenar idéias abstratas,
+sejam elas instruções ou números, e que poderiam ser refereciados 
+posteriormente.
+
+.Máquina Analítica e os cartões perfurados.
+image::images/Babbage-Analytical-Engine-with-cards.png[scaledwidth="60%"]
+
+Ele percebeu que os cartões perfurados poderiam ser utilizados para guardar
+números, sendo utilizado como um mecanismo de armazenamento de dados e 
+futuramente poderiam ser referenciados. Ele idealizou o que hoje chamamos de
+*unidade de armazenamento* e *unidade de processamento de dados*. 
+
+A principal funcionalidade que a diferenciava das máquinas de calcular era
+a utilização de instruções condicionais. A máquina poderia executar fluxos 
+diferentes baseada em condições que eram avalidas, conforme instruções 
+perfuradas nos cartões.
+ 
+Nenhum dos dois projetos de Babbage foram concluídos, a máquina analítica se
+fosse construída teria o tamanho de uma locomotiva.
 
 ===== A Primeira Programadora
-Texto aqui aqui.
+A condessa de Lovelace, Ada Byron, se interessou pela máquina analítica de 
+Babbage e se comunicava comunicava com ele através de cartas e encontros.
+Ela passou a escrever programas que a máquina poderia ser capaz de executar,
+caso fosse construída. Ela foi a primeira a reconhecer a necessidade de 'loops'
+e sub-rotinas. Por esta contribuição Ada ficou reconhecida na história como
+a primeira programadora.
+
+.Ada lovelace, primeira programadora.
+image::images/ada_lovelace.jpg[scaledwidth="30%"]
+
 
 === Linha do tempo
-
-em construção
 
 .Linha do tempo
 ["graphviz", "contexto-edfisica.png"]
@@ -164,7 +208,7 @@ digraph automata_0 {
   rankdir=LR;
   node [shape = box];
 
-  abaco [label="Ábaco\n(300AC)", style=bold];
+  abaco [label="Ábaco\n(300 AC)", style=bold];
   napier [label="Ossos de Napier\n(1614)"];
   regua [label="Régua de Cálculo\n(1632)"];
   pascal [label="(Pascaline)\n(1642)"];
@@ -172,12 +216,19 @@ digraph automata_0 {
   leibniz [label="Calculadora 4 op\n(1672)", style=bold];
   jacquard [label="Tear de Jacquard \n(1804)"];
 
+  mdiferencial [label="Máquina Diferencial\n(1822)"];
+  manalitica [label="Máquina Analítica\n(1837)"];
+
   abaco -> napier
   napier -> regua
   regua -> pascal
   pascal -> leibniz
   leibniz -> jacquard
+  jacquard -> mdiferencial
+  mdiferencial -> manalitica
   
+  {rank=same; abaco jacquard}
+
 }
 ---------------------------------------------------------------------
 
@@ -185,16 +236,93 @@ digraph automata_0 {
 === Os computadores
 Texto aqui aqui.
 
-==== Computadores da Primeira Geração (1940s – 1950s)
+==== Computadores da Primeira Geração (TODO-TODO)
+
+// Válvulas: http://www.lsi.usp.br/~chip/como_funcionam.html
+// http://www.cs.sun.ac.za/museum/gen1.html
+
+A primeira geração dos computadores é mercada pela utilização de *válvulas*.
+A válvula é um tubo de vidro, similar a uma lâmpada, fechada removendo o ar
+de dentro dela, criando criando um ambiente fechado a vácuo, contendo 
+eletrodos, cuja finalidade é controlar o fluxo de elétrons. As válvulas
+aqueciam bastante e costumavam queimar com facilidade.
+
+.As válvulas eram do tamanho de uma lâmpada.
+image::images/valvulas.png[scaledwidth="50%"]
+
+Além disso, a programação era realizada diretamente na linguagem de máquina,
+o que dificultava a programação e consequentemente despendiava muito tempo.
+O armazenamento dos dados eram realizados em cartões perfurado, depois passou
+a ser feito em fita magnética. 
+
+Um dos representantes desta geração é o ENIAC. Ele possuia 17.468 válvulas,
+30 toneladas de peso e 180 m² de área construída, sua velocidade era da ordem
+de 100 kHz.
+
+.ENIAC, representante da primeira geração dos computadores.
+image::images/ENIAC-2.jpg[scaledwidth="50%"]
+
+Nenhum dos computadores da primeira geração possuiam aplicação comercial, eram
+utilizados para fins balísticos, predição climática, cálculos de energia atômica
+e outros fins científicos.
+
+// TODO BUG
+
+==== Computadores da Segunda Geração (TODO-TODO)
+
+// http://www.cs.sun.ac.za/museum/gen2.html
+// http://ecomputernotes.com/fundamental/introduction-to-computer/what-are-different-computer-generations-explain-in-brief
+
+A segunda geração de computadores foi marcada pela substituição da válvula
+pelo *transistor*. O transistor revolucionou a eletrônica em geral e os 
+computadores em especial.
+Eles eram muito menores do que as válvulas a vácuo e tinham 
+outras vantagens: não exigiam tempo de pré-aquecimento, consumiam 
+menos energia, geravam menos calor e eram mais rápidos e confiáveis. No final 
+da década de 50 os transistores foram incorporados aos computadores.
+
+.Circuito integrado com vários transistores (esquerda), comparação da válvula com circuito integrado (direita).
+image::images/transistor-e-valvula-juntos.png[scaledwidth="50%"]
+
+
+
+Na segunda geração o conceito de Unidade de Procedimento (CPU), memória, 
+linguagem de programação e entrada e saída foram desenvolvidos. O tamanho
+dos computadores diminuiram consideravelmente. Outro desenvolvimento importante 
+foi a mudança da linguagem de máquina para a linguagem assembly, também 
+conhecidas como linguagens simbólicas. A linguagem assembly usa abreviações
+para instruções (por exemplo L, para LOAD) em vez de números.
+
+.Computadores IBM da segunda geração.
+image::images/IBM_segunda_geracao.png[scaledwidth=70%]
+
+Em seguida vieram as linguagens de alto nível, como, por exemplo, 
+Fortran e Cobol. Ainda surgiu o armazenamento em disco, complementando 
+os sistemas de fita magnética e possibilitou ao usuário acesso rápido 
+aos dados desejados.
+
+
+
+==== Computadores da Terceira Geração (TODO-TODO)
 Texto aqui aqui.
 
-==== Computadores da Segunda Geração (1940s – 1950s)
-Texto aqui aqui.
 
-==== Computadores da Terceira Geração (1940s – 1950s)
-Texto aqui aqui.
+By the development of a small chip consisting of the capacity of the
+300 transistors. These ICs are popularly known as Chips. A single IC has many 
+transistors, registers and capacitors built on a single thin slice of silicon. 
+So it is quite obvious that the size of the computer got further reduced. 
+Some of the computers developed during this period were IBM-360, ICL-1900, 
+IBM-370, and VAX-750. Higher level language such as BASIC (Beginners All 
+purpose Symbolic Instruction Code) was developed during this period.  
+Computers of this generation were small in size, low cost, large memory and 
+processing speed is very high. Very soon ICs Were replaced by LSI (Large 
+Scale Integration), which consisted about 100 components. An IC containing 
+about 100 components is called LSI.
 
-==== Computadores da Quarta Geração (1940s – 1950s)
+
+
+
+==== Computadores da Quarta Geração (TODO-TODO)
 
 First Generation Computers (1940s – 1950s)
 Second Generation Computers (1955 – 1960)
@@ -213,109 +341,3 @@ Fourth Generation Computers (1971 – present)
 
 
 
-
-== Representação da informação
-Texto aqui aqui.
-
-=== Representação binária
-Texto aqui aqui.
-
-=== Representação de formas geométricas
-Texto aqui aqui.
-
-
-
-Mostrar por exemplo que para representar desenhos bastaria algo do tipo:
-
-forma=quadrado, lado=3, posição x=0,y=0
-
-forma=circulo,  raio=3, posição x=10,y=20
-
-forma=retangulo,  base=40, altura=30, posição x=100,y=300
-
-=== Representação de imagens vetoriais
-Texto aqui aqui.
-
-Imagens vetoriais poderiam ser representadas a partir de um conjunto de 
-representações geométricas, Ex:
-
-Pontos da figura: (0,0), 
-
-=== Representação de imagens utilizando ASCII
-
-Texto, Ascii art.
-
-.Cachorro desenhado utilizando apenas caracteres ASCII.
-...................................
-
-   ,                    ," e`--o
-   ((                   (  | __,'
-    \\~----------------' \_;/
-    (                      /
-    /) ._______________.  )
-   (( (               (( (
-    ``-'               ``-'
-...................................
-
-
-[[tabuleiro_dama]]
-=== Representação de tabuleiro de damas
-
-image::images/jogo-damas.png[]
-
-.Representação das peças no tabuleiro: `B' são as peças brancas, `P' as pretas e `.' as casas vazias.
-...............................................................................
-
-           B.B.B.B.
-           .B.B.B.B
-           B.B.B.B.
-           ........
-           ........
-           .P.P.P.P
-           P.P.P.P.
-           .P.P.P.P
-
-...............................................................................
-
-
-=== Representação de fotografias
-
-
-Similar a representação do tabuleiro, mas cada posição equivale a
-uma tonalidade de cor.
-
-
-.Fotografia mostrando as tonalidades de cada ponto.
-image::images/senna.jpg[scaledwidth="60%"]
-
-
-
-=== Representação de músicas
-Texto aqui aqui.
-
-
-==== Músicas MID
-Toques de celular antigos, somente as notas musicais.
-
-.Partitura da música Marcha Soldado.
-image::images/partitura.png[scaledwidth="60%"]
-
-==== Músicas MP3
-Instrumento e voz.
-
-
-
-
-=== Atividades
-. Represente os números 3198, 733 5623 e 62856 no ábaco abaixo:
-
- 4 figuras de ábaco aqui
-
-. Neste capítulo vimos uma representação do tabuleiro de damas 
-(<<tabuleiro_dama>>), como você representaria de modo diferente o mesmo
- tabuleiro?
-
-// respostas esperadas: 
-// - utilizando as letras e numeros
-// - através de um vetor com as peças
-// - um caracter, pois são necessários apenas 64x3 bits

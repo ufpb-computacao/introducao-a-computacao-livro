@@ -1,0 +1,106 @@
+
+== Representação da informação
+Texto aqui aqui.
+
+=== Representação binária
+Texto aqui aqui.
+
+=== Representação de formas geométricas
+Texto aqui aqui.
+
+
+
+Mostrar por exemplo que para representar desenhos bastaria algo do tipo:
+
+forma=quadrado, lado=3, posição x=0,y=0
+
+forma=circulo,  raio=3, posição x=10,y=20
+
+forma=retangulo,  base=40, altura=30, posição x=100,y=300
+
+=== Representação de imagens vetoriais
+Texto aqui aqui.
+
+Imagens vetoriais poderiam ser representadas a partir de um conjunto de 
+representações geométricas, Ex:
+
+Pontos da figura: (0,0), 
+
+=== Representação de imagens utilizando ASCII
+
+Texto, Ascii art.
+
+.Cachorro desenhado utilizando apenas caracteres ASCII.
+...................................
+
+   ,                    ," e`--o
+   ((                   (  | __,'
+    \\~----------------' \_;/
+    (                      /
+    /) ._______________.  )
+   (( (               (( (
+    ``-'               ``-'
+...................................
+
+
+[[tabuleiro_dama]]
+=== Representação de tabuleiro de damas
+
+image::images/jogo-damas.png[]
+
+.Representação das peças no tabuleiro: `B' são as peças brancas, `P' as pretas e `.' as casas vazias.
+...............................................................................
+
+           B.B.B.B.
+           .B.B.B.B
+           B.B.B.B.
+           ........
+           ........
+           .P.P.P.P
+           P.P.P.P.
+           .P.P.P.P
+
+...............................................................................
+
+
+=== Representação de fotografias
+
+
+Similar a representação do tabuleiro, mas cada posição equivale a
+uma tonalidade de cor.
+
+
+.Fotografia mostrando as tonalidades de cada ponto.
+image::images/senna.jpg[scaledwidth="60%"]
+
+
+
+=== Representação de músicas
+Texto aqui aqui.
+
+
+==== Músicas MID
+Toques de celular antigos, somente as notas musicais.
+
+.Partitura da música Marcha Soldado.
+image::images/partitura.png[scaledwidth="60%"]
+
+==== Músicas MP3
+Instrumento e voz.
+
+
+
+
+=== Atividades
+. Represente os números 3198, 733 5623 e 62856 no ábaco abaixo:
+
+ 4 figuras de ábaco aqui
+
+. Neste capítulo vimos uma representação do tabuleiro de damas 
+(<<tabuleiro_dama>>), como você representaria de modo diferente o mesmo
+ tabuleiro?
+
+// respostas esperadas: 
+// - utilizando as letras e numeros
+// - através de um vetor com as peças
+// - um caracter, pois são necessários apenas 64x3 bits

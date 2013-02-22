@@ -14,7 +14,7 @@ include::prefacio.txt[]
 // Nome da Parte
 // =================
 include::capitulos/historia-do-computador.txt[]
-
+include::capitulos/representacao-da-informacao.txt[]
 
 
 
