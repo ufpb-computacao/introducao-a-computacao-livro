@@ -243,7 +243,11 @@ digraph automata_0 {
 
 === Os computadores
 
-Os computadores 
+Os computadores são máquinas capazes de realizar vários cálculos 
+automaticamente, além de possuir dispositivos de armazenamento e
+de entrada e saída.
+
+Nesta seção iremos ver a evolução dos computadores até os dias atuais.
 
 
 // As datas das gerações mudam conforme a fonte consultada. 
@@ -292,14 +296,14 @@ e outros fins científicos.
 A palavra *bug* (do inglês inseto) atualmente é empregada para designar um 
 defeito, geralmente de software. Mas sua utilização com este sentido remonta 
 a esta época. Conta a história que um dia o computador apresentou defeito, ao 
-investigar a causa verificou-se que entrou um inseto no computador prejudicando 
-o funcionamento. A foto baixo supostamente indica a presença do primeiro bug.
+investigar a causa verificou-se que um inseto havia prejudicando 
+o funcionamento. A foto baixo, supostamente, indica a presença do primeiro bug.
 
 image::images/bug.png[scaledwidth="50%"]
 
 Até hoje os insetos costumam invadir os equipamentos eletrônicos, portanto
-observe-os atentamente, evite deixar comida próximo a eles e nunca
-deixe de utiliza-los por um longo período.
+observe-os atentamente, evite deixar comida próximo a eles e não utiliza-los
+por um longo período.
 ========================
 
 
@@ -316,7 +320,11 @@ outras vantagens: não exigiam tempo de pré-aquecimento, consumiam
 menos energia, geravam menos calor e eram mais rápidos e confiáveis. No final 
 da década de 50 os transistores foram incorporados aos computadores.
 
-TIP: Para saber mais sobre o funcionamento dos transistores consulte http://www.agostinhorosa.com.br/artigos/transistor-indice.html.
+[TIP]
+======================
+Para saber mais sobre o funcionamento dos transistores consulte 
+http://www.agostinhorosa.com.br/artigos/transistor-indice.html.
+======================
 
 .Circuito com vários transistores (esquerda). Comparação do circuito com válvulas (canto superior-direito) com um circuito composto de transistores (inferior-direito).
 image::images/transistor-e-valvula-juntos.png[scaledwidth="50%"]
@@ -326,7 +334,7 @@ linguagem de programação e entrada e saída foram desenvolvidos. O tamanho
 dos computadores diminuíram consideravelmente. Outro desenvolvimento importante 
 foi a mudança da linguagem de máquina para a linguagem assembly, também 
 conhecidas como linguagens simbólicas. A linguagem assembly possibilita a
-utilização de mnemônicos para representar as instruções de máquina. 
+utilização de 'mnemônicos' para representar as instruções de máquina. 
 
 .Computadores IBM da segunda geração.
 image::images/IBM_segunda_geracao.png[scaledwidth=70%]
@@ -351,7 +359,7 @@ A terceira geração de computadores é marcada pela utilização dos
 eles eram construídos integrando um grande número de transistores, 
 possibilitando a construção de equipamentos menores e mais baratos.
 
-.Comparação do tamanho do circuito integrado com moeda americana da época.
+.Comparação do tamanho do circuito integrado com uma moeda.
 image::images/circuito-integrado-comparacao-de-tamanho.jpg[scaledwidth="30%"]
 
 // http://www.computersciencelab.com/ComputerHistory/HistoryPt3.htm
@@ -376,7 +384,7 @@ quantidade de integração que eles possuem:
 Um computador que representa esta geração foi o 'IBM’s System/360', voltada
 para o setor comercial e científico. Ele possuía um arquitetura plugável,
 o cliente poderia substituir as peças que dessem defeitos. Além disso, um
-conjunto de periféricos poderia serem adquirido conforme a necessidade.
+conjunto de periféricos eram vendidos conforme a necessidade do cliente.
 
 .Arquitetura plugável da série 360 da IBM.
 image::images/ibm-360-arquitetura-plugavel.jpg[scaledwidth="65%"]
@@ -393,8 +401,30 @@ image::images/apple-I.jpg[scaledwidth="60%"]
 
 Outro evento importante desta época foi que a IBM passou a separar a criação 
 de hardware do desenvolvimento de sistemas, iniciando o mercado da indústria 
-de softwares. Estes computadores já utilizavam linguagens de alto nível.
+de softwares. Isto foi possível devido a utilização das linguagens de alto
+nível nestes computadores.
 
+[NOTE]
+.Linguagem de alto nível
+==================
+Uma linguagem é considerada de alto nível quando ela pode representar idéias
+abstratas de forma simples, diferente da linguagem de baixo nível que representa
+as próprias instruções de máquina.
+
+Exemplo de linguagem de alto nível:
+
+ x = y*7 + 2
+
+Mesmo código em baixo nível (assembly):
+
+  load y    // carrega valor de y
+  mul 7     // multiplica valor carregado por 7
+  add 2     // adiciona 2
+  store x   // salva o valor do último resultado em x
+
+Os códigos `load`, `mul`, `add` e `store` são os 'mnemônicos' que representam 
+as intruções em código de máquina (binário).
+==================
 
 // By the development of a small chip consisting of the capacity of the
 // 300 transistors. These ICs are popularly known as Chips. A single IC has many 
@@ -463,9 +493,11 @@ Também viemos que no século XIX, o Tear de Jacquard introduziu o uso de cartõ
 perfurados e mais tarde Charles Babbage adaptou a idéia para o uso em sistemas
 computacionais, embora nunca tenha terminado a construção de suas máquinas.
 
-Em seguida, concluímos os estudos do capítulo aprendendo as gerações dos 
+Em seguida, concluímos os estudos do capítulo aprendendo sobre as gerações dos 
 computadores, inicialmente com o uso de velas, depois com transistores e 
-finalmente com a utilização de circuitos integrados.
+finalmente com a utilização de circuitos integrados e como eles revolucionaram
+a fabricação dos computadores.
 
 // TODO ponte para o próximo capítulo.
+// FIXME supondo revisão.
 
