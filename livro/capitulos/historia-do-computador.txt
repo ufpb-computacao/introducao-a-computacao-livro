@@ -1,11 +1,64 @@
 == História dos computadores
 
-Texto aqui aqui.
+.Objetivos do capítulo
+____________________
+Ao final deste capítulo você será capaz de:
+
+* Citar os precursores dos computadores
+* Relatar a importância do surgimento dos cartões perfurados 
+* Descrever como eram os computadores em cada uma das 5 gerações
+* Explicar porque a palavra 'bug' passou a ser empregada para designar defeitos
+* Relatar a importância do circuito integrado no processo de fabricação dos 
+computadores
+____________________
+
+
+
+// Qual a importância deste capítulo para um futuro professor?
+
+Os computadores fazem parte do dia a dia da sociedade contemporânea, mas 
+você conhece a história deles? 
+
+Conhecer a história dos computadores é importante pois é através do estudo do
+passado que podemos compreender e valorizar o presente. Ao decorrer do capítulo
+veremos exemplos de como simples ideias contribuíram para evolução da 
+humanidade.
+
+
+
+// O que é um computador?
+
+Mas o que é um computador? A palavra computador significa
+'aquele que faz cálculos', pessoa ou máquina. Sem dúvidas as pessoas foram 
+os primeiros computadores, elas passavam horas realizando contas e mais contas. 
+Inclusive, veremos mais a adiante que o surgimento de uma simples calculadora 
+causou revolta -- pois as pessoas  tiveram medo de perder seus empregos. 
+Mas não vamos precipitar nossos estudos, vamos começar pelo início.
+
+NOTE: Daqui e em diante, sempre que nos referirmos a 'computador' estamos nos 
+referindo às máquinas, como usualmente é empregado.
+
+
+// Assuntos que serão estudados
+
+Neste capítulo iremos conhecer os instrumentos e máquinas precursores dos 
+computadores, incluindo em que momento da história surgiram as 
+máquinas programáveis. Em seguida estudaremos as gerações dos computares
+entendendo a evolução entre elas.
+
 
 === Precursores dos computadores
 
-Os precursores dos computadores remontam ao ano de 300 AC, com a utilização do 
-ábaco para auxiliar a realização de cálculos.
+São considerados os precursores dos computadores todos os instrumentos ou 
+máquinas que contribuíram com ideias para a criação dos computadores. Dentre
+os precursores o surgimento de uma máquina programável foi um grande marco
+na história dos computadores.
+
+
+
+Vamos iniciar nossos estudos com um instrumento que talvez você já conheça e 
+utilizou no colégio, o ábaco.
+
 
 
 ==== Ábaco
@@ -31,7 +84,7 @@ no seguinte site: http://www.educacaopublica.rj.gov.br/oficinas/matematica/abaco
 
 // http://www.educ.fc.ul.pt/icm/icm99/icm17/napier.htm
 
-Em 1614, John Napier (lê-se Neper) descrobriu os cálculos logaritmos. 
+Em 1614, John Napier (lê-se Neper) descobriu os cálculos logaritmos. 
 
 
 [quote, Lord Moulton]
@@ -40,7 +93,7 @@ prévio anunciava ou fazia prever a sua chegada. Surge isolada e abruptamente
 no pensamento humano sem que se possa considerar consequência de obras ou de 
 pesquisas anteriores"
 
-Napier também inventou o que ficou conhecido por "Ossos de Naiper" 
+Napier também inventou o que ficou conhecido por "Ossos de Napier" 
 (<<ossos_de_napier>>), que auxiliar a realização de multiplicação baseados na
 teoria de algoritmos.
 
@@ -82,7 +135,7 @@ realização de somas e subtração.
 
 [[pascaline]]
 .Pascaline de 8 dígitos aberta (em cima), mostrando as engrenagens. E ela fechada (em baixo), mostrando como era apresentada.
-image::images/pascaline.jpg[scale=50]
+image::images/pascaline.jpg[scaledwidth="50%"]
 // http://calmeca.free.fr/calculmecanique_php/illustrations_texte/pascaline.jpg
 
 O mecanismo de funcionamento é o mesmo utilizado
@@ -133,7 +186,7 @@ funcionamento diferente de acordo com uma programação fornecida.
 
 
 Em 1804 o Francês Joseph Marie *Jacquard* inventou uma máquina de tear
-que trancava o tecido de acordo com uma programação que era fornecida
+que trançava o tecido de acordo com uma programação que era fornecida
 através de furos num cartão. 
 
 .Máquina de tear usando programação através de cartões perfurados.
@@ -168,7 +221,7 @@ image::images/babbage-maquina-diferencial.jpg[scaledwidth="30%"]
 
 Após a inacabada máquina diferencial, em 1837 Charles Babbage anunciou
 um projeto para construção da 'Máquina Analítica'. Influenciado pelo tear de 
-Jacquard, Babbage propos uma máquina de propósito genérico, utilizando uma
+Jacquard, Babbage propôs uma máquina de propósito genérico, utilizando uma
 programação através de cartões perfurados.
 
 Babbage trouxe um grande avanço intelectual na utilização de cartões perfurados,
@@ -207,9 +260,10 @@ a primeira programadora.
 image::images/ada_lovelace.jpg[scaledwidth="30%"]
 
 
-=== Linha do tempo
+==== Linha do tempo
 
-.Linha do tempo
+
+.Linha do tempo dos precursores dos computadores
 ["graphviz", "linha-do-tempo.png"]
 ---------------------------------------------------------------------
 digraph automata_0 {
@@ -241,11 +295,12 @@ digraph automata_0 {
 ---------------------------------------------------------------------
 
 
-=== Os computadores
+=== As gerações dos computadores
 
 Os computadores são máquinas capazes de realizar vários cálculos 
 automaticamente, além de possuir dispositivos de armazenamento e
-de entrada e saída.
+de entrada e saída. 
+
 
 Nesta seção iremos ver a evolução dos computadores até os dias atuais.
 
@@ -359,12 +414,12 @@ A terceira geração de computadores é marcada pela utilização dos
 eles eram construídos integrando um grande número de transistores, 
 possibilitando a construção de equipamentos menores e mais baratos.
 
-.Comparação do tamanho do circuito integrado com uma moeda.
-image::images/circuito-integrado-comparacao-de-tamanho.jpg[scaledwidth="30%"]
+.Comparação do tamanho do circuito integrado com uma moeda (esquerda) e um chip (direita).
+image::images/circuito-integrado-comparacao-de-tamanho.jpg[scaledwidth="50%"]
 
 // http://www.computersciencelab.com/ComputerHistory/HistoryPt3.htm
 Mas o diferencial dos circuitos integrados não era o apenas o tamanho, o 
-processo de fabricação possibilitava a construção de vários curcuitos 
+processo de fabricação possibilitava a construção de vários circuitos 
 simultaneamente, possibilitando a produção em massa. Este avanço pode ser 
 comparado com ao advento da impressa, que revolucionou a produção dos livros.
 
@@ -391,7 +446,7 @@ image::images/ibm-360-arquitetura-plugavel.jpg[scaledwidth="65%"]
 
 A IBM, que até então liderava o mercado de computadores, passou a perder espaço 
 quando concorrentes passaram a vender periféricos mais baratos e que eram 
-compatíveis com sua arquitetura. No final desta geração já começaram a sugir os 
+compatíveis com sua arquitetura. No final desta geração já começaram a surgir os 
 computadores pessoais (<<apple_I>>).
 
 // Página do leilão: http://www.breker.com/english/index.htm
@@ -407,7 +462,7 @@ nível nestes computadores.
 [NOTE]
 .Linguagem de alto nível
 ==================
-Uma linguagem é considerada de alto nível quando ela pode representar idéias
+Uma linguagem é considerada de alto nível quando ela pode representar ideias
 abstratas de forma simples, diferente da linguagem de baixo nível que representa
 as próprias instruções de máquina.
 
@@ -423,22 +478,8 @@ Mesmo código em baixo nível (assembly):
   store x   // salva o valor do último resultado em x
 
 Os códigos `load`, `mul`, `add` e `store` são os 'mnemônicos' que representam 
-as intruções em código de máquina (binário).
+as instruções em código de máquina (binário).
 ==================
-
-// By the development of a small chip consisting of the capacity of the
-// 300 transistors. These ICs are popularly known as Chips. A single IC has many 
-// transistors, registers and capacitors built on a single thin slice of silicon. 
-// So it is quite obvious that the size of the computer got further reduced. 
-// Some of the computers developed during this period were IBM-360, ICL-1900, 
-// IBM-370, and VAX-750. Higher level language such as BASIC (Beginners All 
-// purpose Symbolic Instruction Code) was developed during this period.  
-// Computers of this generation were small in size, low cost, large memory and 
-// processing speed is very high. Very soon ICs Were replaced by LSI (Large 
-// Scale Integration), which consisted about 100 components. An IC containing 
-// about 100 components is called LSI.
-
-
 
 
 ==== Quarta Geração (1977-1991)
@@ -463,9 +504,8 @@ image::images/computador-quarta-geracao.jpg[scaledwidth="30%"]
 Os computadores da quinta geração usam processadores com milhões de 
 transistores. Surgiram as arquiteturas de 64 bits. Os processadores utilizam
 tecnologias RISC e CISC. Disco rígido com capacidade superior a 600GB, 
-pen-drivers com mais de 1GB de memória. Utilização de disco ótico
-com mais de 50GB de armazenamento. Esta geração está sendo marcada pela 
-inteligencia artificial.
+pen-drives com mais de 1GB de memória. Utilização de disco ótico
+com mais de 50GB de armazenamento. 
 
 (((CISC)))
 (((RISC)))
@@ -473,9 +513,18 @@ inteligencia artificial.
 .Computador da quinta geração.
 image::images/computador-quinta-geracao.jpg[scaledwidth="30%"]
 
+A quinta geração está sendo marcada pela *inteligencia artificial* e por sua 
+*conectividade*. A inteligencia artificial pode ser verificada em jogos
+e robores ao conseguir desafiar a inteligência humana. A conectividade é cada 
+vez mais um requisito das industrias de computadores, hoje queremos que nossos 
+computadores se conectem ao celular, a televisão e a muitos outros dispositivos
+como geladeira e câmeras de segurança.
+
+
+
 // Referencias: 
 // http://www.historyofcomputer.org/
-// Notas de aulas de raimundo nóbrega
+// Notas de aulas de Raimundo Nóbrega
 // http://www.computersciencelab.com/ComputerHistory/History.htm
 
 // http://www.thocp.net/hardware/pascaline.htm
@@ -490,7 +539,7 @@ os logaritmos e inventou os ossos de Napier. Pascal inventou uma máquina que
 era capaz de realizar somas e subtrações através de engrenagens.
 
 Também viemos que no século XIX, o Tear de Jacquard introduziu o uso de cartões
-perfurados e mais tarde Charles Babbage adaptou a idéia para o uso em sistemas
+perfurados e mais tarde Charles Babbage adaptou a ideia para o uso em sistemas
 computacionais, embora nunca tenha terminado a construção de suas máquinas.
 
 Em seguida, concluímos os estudos do capítulo aprendendo sobre as gerações dos 

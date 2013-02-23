@@ -28,7 +28,7 @@ Pontos da figura: (0,0),
 
 === Representação de imagens utilizando ASCII
 
-Texto, Ascii art.
+Texto, ASCII art.
 
 .Cachorro desenhado utilizando apenas caracteres ASCII.
 ...................................
@@ -101,6 +101,6 @@ Instrumento e voz.
  tabuleiro?
 
 // respostas esperadas: 
-// - utilizando as letras e numeros
+// - utilizando as letras e números
 // - através de um vetor com as peças
-// - um caracter, pois são necessários apenas 64x3 bits
+// - um carácter, pois são necessários apenas 64x3 bits

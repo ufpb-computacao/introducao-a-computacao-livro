@@ -5,3 +5,5 @@ pdf: indice-remissivo.txt livro.txt prefacio.txt capitulos/*.txt
   :sys rm -v -f *.png
   :sys grep -n -E "TODO|FIXME" -r capitulos/ --color
 
+spell: capitulos/*.txt
+  :sys hunspell -D -p hunspell_pt_BR capitulos/*.txt
