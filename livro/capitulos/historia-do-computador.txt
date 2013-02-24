@@ -5,7 +5,7 @@ ____________________
 Ao final deste capítulo você será capaz de:
 
 * Citar os precursores dos computadores
-* Relatar a importância do surgimento dos cartões perfurados 
+* Discorrer sobre a importância do surgimento dos cartões perfurados 
 * Descrever como eram os computadores em cada uma das 5 gerações
 * Explicar porque a palavra 'bug' passou a ser empregada para designar defeitos
 * Relatar a importância do circuito integrado no processo de fabricação dos 
@@ -21,7 +21,7 @@ você conhece a história deles?
 
 Conhecer a história dos computadores é importante pois é através do estudo do
 passado que podemos compreender e valorizar o presente. Ao decorrer do capítulo
-veremos exemplos de como simples ideias contribuíram para evolução da 
+veremos exemplos de como ideias simples contribuíram para evolução da 
 humanidade.
 
 
@@ -29,55 +29,51 @@ humanidade.
 // O que é um computador?
 
 Mas o que é um computador? A palavra computador significa
-'aquele que faz cálculos', pessoa ou máquina. Sem dúvidas as pessoas foram 
-os primeiros computadores, elas passavam horas realizando contas e mais contas. 
+'aquele que faz cálculos', seja ele pessoa ou máquina. Sem dúvida as pessoas foram 
+os primeiros computadores, já que passavam horas realizando contas e mais contas. 
 Inclusive, veremos mais a adiante que o surgimento de uma simples calculadora 
 causou revolta -- pois as pessoas  tiveram medo de perder seus empregos. 
 Mas não vamos precipitar nossos estudos, vamos começar pelo início.
 
-NOTE: Daqui e em diante, sempre que nos referirmos a 'computador' estamos nos 
-referindo às máquinas, como usualmente é empregado.
+NOTE: Daqui e em diante, sempre que mencinarmos a palavra 'computador' estaremos nos 
+referindo ao seu sentido usual, de máquinas.
 
 
 // Assuntos que serão estudados
 
 Neste capítulo iremos conhecer os instrumentos e máquinas precursores dos 
-computadores, incluindo em que momento da história surgiram as 
-máquinas programáveis. Em seguida estudaremos as gerações dos computares
-entendendo a evolução entre elas.
+computadores, e saberemos em qual momento da história surgiram as 
+máquinas programáveis. Em seguida, estudaremos as gerações de computares,
+procurando entender a sua evolução.
 
 
 === Precursores dos computadores
 
-São considerados os precursores dos computadores todos os instrumentos ou 
-máquinas que contribuíram com ideias para a criação dos computadores. Dentre
-os precursores o surgimento de uma máquina programável foi um grande marco
+São considerados precursores dos computadores todos os instrumentos ou 
+máquinas que contribuíram com ideias para a criação dos mesmos. Dentre
+eles, o surgimento de uma máquina programável foi um grande marco
 na história dos computadores.
 
 
 
-Vamos iniciar nossos estudos com um instrumento que talvez você já conheça e 
-utilizou no colégio, o ábaco.
+Vamos iniciar nossos estudos com um instrumento que talvez você conheça e 
+provavelmente já utilizou na escola, o ábaco.
 
 
 
 ==== Ábaco
 
-O ábaco foi um dos primeiros instrumentos criados para auxiliar os humanos na 
-realização cálculos. Muitos atribuem à China a criação do ábaco, mas temos
-evidências do ábaco na Babilônia no ano 300 AC.
+O ábaco foi um dos primeiros instrumentos desenvolvidos para auxiliar os humanos na 
+realização de cálculos. Muitos atribuem sua criação à China, mas existem
+evidências deles na Babilônia no ano 300 A.C.
 
 .Ilustração de um ábaco
 image::images/abaco.png[scaledwidth="50%"]
 
 Percebam que o ábaco pode ser visto como uma representação dos dedos humanos,
-onde as bolas de cima representam as mãos, e as de baixo os dedos.
+onde as bolas de cima representariam as mãos, e as de baixo os dedos.
 
-
-.Charge sobre ábaco e computadores
-image::images/abaco-charge.png[scaledwidth="50%"]
-
-TIP: Você pode conhecer um pouco mais sobre o ábaco
+TIP: Você pode conhecer mais sobre o ábaco
 no seguinte site: http://www.educacaopublica.rj.gov.br/oficinas/matematica/abaco/03.html
 
 ==== Ossos de Napier
@@ -94,7 +90,7 @@ no pensamento humano sem que se possa considerar consequência de obras ou de
 pesquisas anteriores"
 
 Napier também inventou o que ficou conhecido por "Ossos de Napier" 
-(<<ossos_de_napier>>), que auxiliar a realização de multiplicação baseados na
+(<<ossos_de_napier>>), que auxiliavam na realização de multiplicações, baseando-se na
 teoria de algoritmos.
 
 [[ossos_de_napier]]
@@ -104,13 +100,14 @@ image::images/napier-ossos-tabuleiro.png[scaledwidth="50%"]
 .Ilustração da operação de multiplicação utilizando os ossos de Napier: 46785399 x 7.
 image::images/napier-multiplicacao-46785399x7.png[scaledwidth="100%"]
 
-NOTE: Para conhecer como os ossos de Napier funciona consulte (em inglês):
-http://en.wikipedia.org/wiki/Napier%27s_bones
+NOTE: Para conhecer como os ossos de Napier funciona consulte:
+http://eu-thais.blogspot.com.br/2010/08/como-funcionam-os-bastoes-de-napier.html
+ou http://en.wikipedia.org/wiki/Napier%27s_bones (em inglês).
 
-A criação da Régua de Cálculo (<<regua_calculo>>) em 1632 na Inglaterra foi 
+A criação da Régua de Cálculo, (<<regua_calculo>>) em 1632 na Inglaterra, foi 
 diretamente influenciada pelos Ossos de Napier. Esta régua chegou a ser 
 utilizada pelos engenheiros da NASA, na década de 1960, nos programas que 
-levaram o Homem a Lua.
+levaram o homem à Lua.
 
 [[regua_calculo]]
 .Régua de Cálculo
@@ -124,35 +121,35 @@ image::images/regua-de-calculo.jpg[scaledwidth="70%"]
 // http://www.thocp.net/hardware/pascaline.htm
 // http://therese.eveilleau.pagesperso-orange.fr/pages/truc_mat/textes/pascaline.htm#haut
 
-Em 1642, o Francês *Blaise Pascal*, aos 19 anos foi o primeiro a inventar um 
+Em 1642, o francês *Blaise Pascal*, aos 19 anos de idade, foi o primeiro a inventar um 
 dispositivo mecânico para realização de cálculos. O dispositivo é conhecido 
 como 'As rodas dentadas de Pascal' (ou Pascaline, <<pascaline>>).
 
-Pascal era filho de um cobrado de impostos e auxiliava o pai na realização
+Pascal era filho de um cobrador de impostos e auxiliava o pai na realização
 de cálculos utilizando um instrumento similar ao ábaco. Mas segundo ele, o
-trabalho era muito entediante, isto o levou a elaborar um dispositivo para
+trabalho era muito entediante, o que o levou a elaborar um dispositivo para
 realização de somas e subtração.
 
 [[pascaline]]
-.Pascaline de 8 dígitos aberta (em cima), mostrando as engrenagens. E ela fechada (em baixo), mostrando como era apresentada.
+.Pascaline de 8 dígitos aberta, mostrando as engrenagens (acima), e a apresentação da máquina fechada (abaixo).
 image::images/pascaline.jpg[scaledwidth="50%"]
 // http://calmeca.free.fr/calculmecanique_php/illustrations_texte/pascaline.jpg
 
 O mecanismo de funcionamento é o mesmo utilizado
-até hoje nos odômetros de carros, engrenagens são ligadas de tal forma a simular
+até hoje nos odômetros de carros, onde as engrenagens são organizadas de tal forma a simular
 o "vai um" para a próxima casa decimal nas operações de adição.
 
 [TIP]
 =================
 Existe um animação demonstrando o funcionamento da máquina pascaline, você pode 
-acessa-lo através do seguinte link: 
+acessá-lo através do seguinte link: 
 http://therese.eveilleau.pagesperso-orange.fr/pages/truc_mat/textes/pascaline.htm.
 
 image::images/pascaline-video.png[scaledwidth="50%"]
 =================
 
-As operações de soma eram realizadas girando as engrenagens em um sentido,
-as operações de subtração eram realizadas invertendo o sentido, enquanto que as 
+As operações de soma eram realizadas girando as engrenagens em um sentido e
+as operações de subtração no sentido oposto, enquanto que as 
 operações de multiplicação utilizavam vários giros da soma manualmente.
 
 O surgimento da pascaline, no entanto, não agradou a todos, alguns empregados
@@ -169,32 +166,32 @@ TIP: Você pode consultar a biografia de Pascal em: http://www.thocp.net/biograp
 Em 1672, o Alemão 'Gottfried Wilhelm Leibniz' foi o primeiro a inventar uma 
 calculadora que realizava as 4 operações básicas (adição, subtração, 
 multiplicação e divisão). A adição utilizava um mecanismo baseado na Pascaline,
-mas as operações de multiplicação realizava a sequência de somas automáticas.
+mas as operações de multiplicação realizavam a sequência de somas automáticas.
 
 Leibniz também foi o primeiro a defender a utilização do *sistema binário*, que
 é fundamental nos computadores digitais que utilizamos hoje.
 
 (((Sistema binários)))
 
-==== Máquinas Programadas
+==== Máquinas Programáveis
 
-Um marco na história foi a invenção de máquinas programáveis, que tinha o
-funcionamento diferente de acordo com uma programação fornecida.
+Um marco na história foi a invenção de máquinas programáveis, que 
+funcionavam de forma diferente de acordo com uma programação que lhes era fornecida.
 
 ===== Tear de Jacquard
 // http://www.computersciencelab.com/ComputerHistory/HistoryPt2.htm
 
 
-Em 1804 o Francês Joseph Marie *Jacquard* inventou uma máquina de tear
+Em 1804, o Francês Joseph Marie *Jacquard* inventou uma máquina de tear
 que trançava o tecido de acordo com uma programação que era fornecida
 através de furos num cartão. 
 
 .Máquina de tear usando programação através de cartões perfurados.
 image::images/JacquardLoom.jpg[scaledwidth="50%"]
 
-A invenção de Jacquard revolucionou a industria de tecido e, em 1806, ela foi
+A invenção de Jacquard revolucionou a industria de tecido, e em 1806, ela foi
 declarada propriedade pública e ele foi recompensado com uma pensão e 
-'royaltys' por cada máquina que fosse construída.
+'royalties' por cada máquina que fosse construída.
 
 .Esquerda: Jacquard perfurando os cartões. Direita: cartões perfurados.
 image::images/JacquardCard.jpg[scaledwidth="50%"]
@@ -205,11 +202,11 @@ image::images/JacquardCard.jpg[scaledwidth="50%"]
 
 Em 1822, o matemático inglês Charles Babbage propôs a construção de uma
 máquina de calcular que ocuparia uma sala inteira. O propósito da máquina
-seria de corrigir os erros das tabelas de logaritmos, muito utilizada
+seria de corrigir os erros das tabelas de logaritmos, muito utilizadas
 pelo governo britânico devido as grandes navegações.
 A construção da máquina, no entanto, excedeu em orçamento e tempo na sua
 construção, foi inclusive o projeto mais caro que o governo britânico 
-já havia financiado. Eventualmente os subsídios foram retirados e o projeto
+já havia financiado. Eventualmente, os subsídios foram retirados e o projeto
 abortado.
 
 
@@ -219,7 +216,7 @@ image::images/babbage-maquina-diferencial.jpg[scaledwidth="30%"]
 
 ===== A Máquina Analítica
 
-Após a inacabada máquina diferencial, em 1837 Charles Babbage anunciou
+Após a inacabada máquina diferencial, em 1837, Charles Babbage anunciou
 um projeto para construção da 'Máquina Analítica'. Influenciado pelo tear de 
 Jacquard, Babbage propôs uma máquina de propósito genérico, utilizando uma
 programação através de cartões perfurados.
@@ -235,13 +232,13 @@ posteriormente.
 image::images/Babbage-Analytical-Engine-with-cards.png[scaledwidth="60%"]
 
 Ele percebeu que os cartões perfurados poderiam ser utilizados para guardar
-números, sendo utilizado como um mecanismo de armazenamento de dados e 
+números, sendo utilizados como um mecanismo de armazenamento de dados e 
 futuramente poderiam ser referenciados. Ele idealizou o que hoje chamamos de
 *unidade de armazenamento* e *unidade de processamento de dados*. 
 
 A principal funcionalidade que a diferenciava das máquinas de calcular era
 a utilização de instruções condicionais. A máquina poderia executar fluxos 
-diferentes baseada em condições que eram avaliadas, conforme instruções 
+diferentes baseada em condições que eram avaliadas conforme instruções 
 perfuradas nos cartões.
  
 Nenhum dos dois projetos de Babbage foram concluídos, a máquina analítica se
@@ -250,10 +247,10 @@ fosse construída teria o tamanho de uma locomotiva.
 ===== A Primeira programadora
 
 A condessa de Lovelace, Ada Byron, se interessou pela máquina analítica de 
-Babbage e se comunicava comunicava com ele através de cartas e encontros.
+Babbage e se comunicava com ele através de cartas e encontros.
 Ela passou a escrever programas que a máquina poderia ser capaz de executar,
 caso fosse construída. Ela foi a primeira a reconhecer a necessidade de 'loops'
-e sub-rotinas. Por esta contribuição Ada ficou reconhecida na história como
+e sub-rotinas. Por esta contribuição, Ada ficou reconhecida na história como
 a primeira programadora.
 
 .Ada lovelace, primeira programadora.
@@ -320,9 +317,9 @@ Nesta seção iremos ver a evolução dos computadores até os dias atuais.
 // Válvulas: http://www.lsi.usp.br/~chip/como_funcionam.html
 // http://www.cs.sun.ac.za/museum/gen1.html
 
-A primeira geração dos computadores é mercada pela utilização de *válvulas*.
-A válvula é um tubo de vidro, similar a uma lâmpada, fechada removendo o ar
-de dentro dela, criando criando um ambiente fechado a vácuo, contendo 
+A primeira geração dos computadores é marcada pela utilização de *válvulas*.
+A válvula é um tubo de vidro, similar a uma lâmpada fechada sem ar
+ em seu interior, ou seja, um ambiente fechado a vácuo, e contendo 
 eletrodos, cuja finalidade é controlar o fluxo de elétrons. As válvulas
 aqueciam bastante e costumavam queimar com facilidade.
 
@@ -330,12 +327,12 @@ aqueciam bastante e costumavam queimar com facilidade.
 image::images/valvulas.png[scaledwidth="50%"]
 
 Além disso, a programação era realizada diretamente na linguagem de máquina,
-o que dificultava a programação e consequentemente despendiava muito tempo.
-O armazenamento dos dados eram realizados em cartões perfurado, depois passou
-a ser feito em fita magnética. 
+o que dificultava a programação e consequentemente despendia muito tempo.
+O armazenamento dos dados era realizado em cartões perfurados, que depois passaram
+a ser feitos em fita magnética. 
 
 Um dos representantes desta geração é o ENIAC. Ele possuía 17.468 válvulas,
-30 toneladas de peso e 180 m² de área construída, sua velocidade era da ordem
+pesava 30 toneladas, tinha 180 m² de área construída e sua velocidade era da ordem
 de 100 kHz.
 
 .ENIAC, representante da primeira geração dos computadores.
@@ -348,16 +345,17 @@ e outros fins científicos.
 [NOTE]
 .O primeiro *bug* da história
 ========================
-A palavra *bug* (do inglês inseto) atualmente é empregada para designar um 
+A palavra *bug* (inseto em inglês) é empregada atualmente para designar um 
 defeito, geralmente de software. Mas sua utilização com este sentido remonta 
-a esta época. Conta a história que um dia o computador apresentou defeito, ao 
-investigar a causa verificou-se que um inseto havia prejudicando 
-o funcionamento. A foto baixo, supostamente, indica a presença do primeiro bug.
+a esta época.
+Conta a história que um dia o computador apresentou defeito. Ao serem
+investigadas as causas, verificou-se que um inseto havia prejudicado seu
+ funcionamento. A foto abaixo, supostamente, indica a presença do primeiro bug.
 
 image::images/bug.png[scaledwidth="50%"]
 
 Até hoje os insetos costumam invadir os equipamentos eletrônicos, portanto
-observe-os atentamente, evite deixar comida próximo a eles e não utiliza-los
+observe-os atentamente, evite deixar comida próximo a eles e não utilizá-los
 por um longo período.
 ========================
 
@@ -373,7 +371,7 @@ computadores em especial.
 Eles eram muito menores do que as válvulas a vácuo e tinham 
 outras vantagens: não exigiam tempo de pré-aquecimento, consumiam 
 menos energia, geravam menos calor e eram mais rápidos e confiáveis. No final 
-da década de 50 os transistores foram incorporados aos computadores.
+da década de 50, os transistores foram incorporados aos computadores.
 
 [TIP]
 ======================
@@ -386,9 +384,9 @@ image::images/transistor-e-valvula-juntos.png[scaledwidth="50%"]
 
 Na segunda geração o conceito de Unidade Central de Procedimento (CPU), memória, 
 linguagem de programação e entrada e saída foram desenvolvidos. O tamanho
-dos computadores diminuíram consideravelmente. Outro desenvolvimento importante 
+dos computadores diminuiu consideravelmente. Outro desenvolvimento importante 
 foi a mudança da linguagem de máquina para a linguagem assembly, também 
-conhecidas como linguagens simbólicas. A linguagem assembly possibilita a
+conhecida como linguagem simbólica. A linguagem assembly possibilita a
 utilização de 'mnemônicos' para representar as instruções de máquina. 
 
 .Computadores IBM da segunda geração.
@@ -396,8 +394,8 @@ image::images/IBM_segunda_geracao.png[scaledwidth=70%]
 
 
 Em seguida vieram as linguagens de alto nível, como, por exemplo, 
-Fortran e Cobol. Ainda surgiu o armazenamento em disco, complementando 
-os sistemas de fita magnética e possibilitou ao usuário acesso rápido 
+Fortran e Cobol. No mesmo período surgiu o armazenamento em disco, complementando 
+os sistemas de fita magnética e possibilitando ao usuário acesso rápido 
 aos dados desejados.
 
 
@@ -411,17 +409,17 @@ aos dados desejados.
 
 A terceira geração de computadores é marcada pela utilização dos
 *circuitos integrados*, feitos de silício. Também conhecidos como *microchips*,
-eles eram construídos integrando um grande número de transistores, 
-possibilitando a construção de equipamentos menores e mais baratos.
+eles eram construídos integrando um grande número de transistores, o que
+possibilitou a construção de equipamentos menores e mais baratos.
 
 .Comparação do tamanho do circuito integrado com uma moeda (esquerda) e um chip (direita).
 image::images/circuito-integrado-comparacao-de-tamanho.jpg[scaledwidth="50%"]
 
 // http://www.computersciencelab.com/ComputerHistory/HistoryPt3.htm
-Mas o diferencial dos circuitos integrados não era o apenas o tamanho, o 
-processo de fabricação possibilitava a construção de vários circuitos 
-simultaneamente, possibilitando a produção em massa. Este avanço pode ser 
-comparado com ao advento da impressa, que revolucionou a produção dos livros.
+Mas o diferencial dos circuitos integrados não era o apenas o tamanho, mas o 
+processo de fabricação que possibilitava a construção de vários circuitos 
+simultaneamente, facilitando a produção em massa. Este avanço pode ser 
+comparado ao advento da impressa, que revolucionou a produção dos livros.
 
 [NOTE]
 ==========================
@@ -436,9 +434,9 @@ quantidade de integração que eles possuem:
 
 ==========================
 
-Um computador que representa esta geração foi o 'IBM’s System/360', voltada
-para o setor comercial e científico. Ele possuía um arquitetura plugável,
-o cliente poderia substituir as peças que dessem defeitos. Além disso, um
+Um computador que representa esta geração foi o 'IBM’s System/360', voltado
+para o setor comercial e científico. Ele possuía uma arquitetura plugável,
+na qual o cliente poderia substituir as peças que dessem defeitos. Além disso, um
 conjunto de periféricos eram vendidos conforme a necessidade do cliente.
 
 .Arquitetura plugável da série 360 da IBM.
@@ -451,7 +449,7 @@ computadores pessoais (<<apple_I>>).
 
 // Página do leilão: http://www.breker.com/english/index.htm
 [[apple_I]]
-.Computador Apple I. Foram construídos apenas 200 deles, foram vendidos por US$ 666,66 dólares -- o monitor necessitava ser adquirido separadamente. Em novembro de 2012 um deles foi leiloado por US$ *640.000,00* dólares.
+.Computador Apple I.
 image::images/apple-I.jpg[scaledwidth="60%"]
 
 Outro evento importante desta época foi que a IBM passou a separar a criação 
@@ -487,12 +485,12 @@ as instruções em código de máquina (binário).
 Os computadores da quarta geração são reconhecidos pelo surgimento dos 
 processadores -- unidade central de processamento. Os sistemas operacionais
 como MS-DOS, UNIX, Apple’s Macintosh foram construídos. Linguagens de 
-programação orientada a objeto como C++ e Smalltalk foram desenvolvidas.
+programação orientadas a objeto como C++ e Smalltalk foram desenvolvidas.
 Discos rígidos eram utilizados como memória secundária. Impressoras matriciais,
 e os teclados com os layouts atuais foram criados nesta época.
 
 Os computadores eram mais confiáveis, mais rápidos, menores e com maior 
-capacidade de armazenamento. Este geração é marcada pela venda de computadores
+capacidade de armazenamento. Esta geração é marcada pela venda de computadores
 pessoais (<<quarta_geracao>>).
 
 [[quarta_geracao]]
@@ -502,9 +500,9 @@ image::images/computador-quarta-geracao.jpg[scaledwidth="30%"]
 ==== Quinta Geração (1991 -- dias atuais)
 
 Os computadores da quinta geração usam processadores com milhões de 
-transistores. Surgiram as arquiteturas de 64 bits. Os processadores utilizam
-tecnologias RISC e CISC. Disco rígido com capacidade superior a 600GB, 
-pen-drives com mais de 1GB de memória. Utilização de disco ótico
+transistores. Nesta geração surgiram as arquiteturas de 64 bits, os processadores que utilizam
+tecnologias RISC e CISC, discos rígidos com capacidade superior a 600GB, 
+pen-drives com mais de 1GB de memória e utilização de disco ótico
 com mais de 50GB de armazenamento. 
 
 (((CISC)))
@@ -513,10 +511,10 @@ com mais de 50GB de armazenamento.
 .Computador da quinta geração.
 image::images/computador-quinta-geracao.jpg[scaledwidth="30%"]
 
-A quinta geração está sendo marcada pela *inteligencia artificial* e por sua 
-*conectividade*. A inteligencia artificial pode ser verificada em jogos
+A quinta geração está sendo marcada pela *inteligência artificial* e por sua 
+*conectividade*. A inteligência artificial pode ser verificada em jogos
 e robores ao conseguir desafiar a inteligência humana. A conectividade é cada 
-vez mais um requisito das industrias de computadores, hoje queremos que nossos 
+vez mais um requisito das indústrias de computadores. Hoje em dia, queremos que nossos 
 computadores se conectem ao celular, a televisão e a muitos outros dispositivos
 como geladeira e câmeras de segurança.
 
@@ -538,8 +536,8 @@ humanidade na realização de cálculos. Muitos séculos depois, Napier descobri
 os logaritmos e inventou os ossos de Napier. Pascal inventou uma máquina que
 era capaz de realizar somas e subtrações através de engrenagens.
 
-Também viemos que no século XIX, o Tear de Jacquard introduziu o uso de cartões
-perfurados e mais tarde Charles Babbage adaptou a ideia para o uso em sistemas
+Também vimos que no século XIX, o Tear de Jacquard introduziu o uso de cartões
+perfurados, e mais tarde, Charles Babbage adaptou a ideia para o uso em sistemas
 computacionais, embora nunca tenha terminado a construção de suas máquinas.
 
 Em seguida, concluímos os estudos do capítulo aprendendo sobre as gerações dos 
@@ -548,5 +546,4 @@ finalmente com a utilização de circuitos integrados e como eles revolucionaram
 a fabricação dos computadores.
 
 // TODO ponte para o próximo capítulo.
-// FIXME supondo revisão.
 
