@@ -435,8 +435,8 @@ quantidade de integração que eles possuem:
 ==========================
 
 Um computador que representa esta geração foi o 'IBM’s System/360', voltado
-para o setor comercial e científico. Ele possuía um arquitetura plugável,
-onde o cliente poderia substituir as peças que dessem defeitos. Além disso, um
+para o setor comercial e científico. Ele possuía uma arquitetura plugável,
+na qual o cliente poderia substituir as peças que dessem defeitos. Além disso, um
 conjunto de periféricos eram vendidos conforme a necessidade do cliente.
 
 .Arquitetura plugável da série 360 da IBM.
@@ -485,7 +485,7 @@ as instruções em código de máquina (binário).
 Os computadores da quarta geração são reconhecidos pelo surgimento dos 
 processadores -- unidade central de processamento. Os sistemas operacionais
 como MS-DOS, UNIX, Apple’s Macintosh foram construídos. Linguagens de 
-programação orientadas a objeto como o C++ e Smalltalk foram desenvolvidas.
+programação orientadas a objeto como C++ e Smalltalk foram desenvolvidas.
 Discos rígidos eram utilizados como memória secundária. Impressoras matriciais,
 e os teclados com os layouts atuais foram criados nesta época.
 
