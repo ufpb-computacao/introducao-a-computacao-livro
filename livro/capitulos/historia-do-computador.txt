@@ -2,7 +2,7 @@
 
 .Objetivos do capítulo
 ____________________
-Ao final deste capítulo você será capaz de:
+Ao final deste capítulo você deverá ser capaz de:
 
 * Citar os precursores dos computadores
 * Discorrer sobre a importância do surgimento dos cartões perfurados 
@@ -116,10 +116,13 @@ image::images/regua-de-calculo.jpg[scaledwidth="70%"]
 
 
 ==== As rodas dentadas de Pascal (Pascaline)
-// http://www.computersciencelab.com/ComputerHistory/History.htm
-// http://www.thocp.net/biographies/pascal_blaise.html
-// http://www.thocp.net/hardware/pascaline.htm
-// http://therese.eveilleau.pagesperso-orange.fr/pages/truc_mat/textes/pascaline.htm#haut
+////
+Referencias:
+  http://www.computersciencelab.com/ComputerHistory/History.htm
+  http://www.thocp.net/biographies/pascal_blaise.html
+  http://www.thocp.net/hardware/pascaline.htm
+  http://therese.eveilleau.pagesperso-orange.fr/pages/truc_mat/textes/pascaline.htm#haut
+////
 
 Em 1642, o francês *Blaise Pascal*, aos 19 anos de idade, foi o primeiro a inventar um 
 dispositivo mecânico para realização de cálculos. O dispositivo é conhecido 
@@ -253,7 +256,7 @@ caso fosse construída. Ela foi a primeira a reconhecer a necessidade de 'loops'
 e sub-rotinas. Por esta contribuição, Ada ficou reconhecida na história como
 a primeira programadora.
 
-.Ada lovelace, primeira programadora.
+.Ada Lovelace, primeira programadora.
 image::images/ada_lovelace.jpg[scaledwidth="30%"]
 
 
@@ -301,16 +304,18 @@ de entrada e saída.
 
 Nesta seção iremos ver a evolução dos computadores até os dias atuais.
 
+////
+As datas das gerações mudam conforme a fonte consultada. 
+Estou utilizando as datas da primeira fonte.
 
-// As datas das gerações mudam conforme a fonte consultada. 
-// Estou utilizando as datas da primeira fonte.
+Fonte: ecomputernotes.com/fundamental/introduction-to-computer/what-are-different-computer-generations-explain-in-brief
+1 (1946-1954)        2 (1955-1964)        3 (1964-1977)        4 (1977-1991)     5 (1991-?)
+Documento do word:
+1 (1951-1958)        2 (1959-1964)        3 (1965-1970)        4 (1971-atualmente)
+http://www.itsavvy.in/computer-generations
+1 (1946)        2 (1955)        3 (1964)        4 (1975)     5(1990s)
 
-// Fonte: ecomputernotes.com/fundamental/introduction-to-computer/what-are-different-computer-generations-explain-in-brief
-// 1 (1946-1954)        2 (1955-1964)        3 (1964-1977)        4 (1977-1991)     5 (1991-?)
-// Documento do word:
-// 1 (1951-1958)        2 (1959-1964)        3 (1965-1970)        4 (1971-atualmente)
-// http://www.itsavvy.in/computer-generations
-// 1 (1946)        2 (1955)        3 (1964)        4 (1975)     5(1990s)
+////
 
 ==== Primeira Geração (1946-1954)
 
@@ -402,10 +407,16 @@ aos dados desejados.
 
 
 ==== Terceira Geração (1964-1977)
-// http://www.historyofcomputer.org/
-// http://www.ebbemunk.dk/misc/ibm360.html
-// http://www.computersciencelab.com/ComputerHistory/HistoryPt3.htm
-// ecomputernotes.com/fundamental/introduction-to-computer/what-are-different-computer-generations-explain-in-brief
+
+////
+Referencias:
+
+ http://www.historyofcomputer.org/
+ http://www.ebbemunk.dk/misc/ibm360.html
+ http://www.computersciencelab.com/ComputerHistory/HistoryPt3.htm
+ ecomputernotes.com/fundamental/introduction-to-computer/what-are-different-computer-generations-explain-in-brief
+
+////
 
 A terceira geração de computadores é marcada pela utilização dos
 *circuitos integrados*, feitos de silício. Também conhecidos como *microchips*,
@@ -519,14 +530,16 @@ computadores se conectem ao celular, a televisão e a muitos outros dispositivos
 como geladeira e câmeras de segurança.
 
 
+////
+Referencias: 
 
-// Referencias: 
-// http://www.historyofcomputer.org/
-// Notas de aulas de Raimundo Nóbrega
-// http://www.computersciencelab.com/ComputerHistory/History.htm
+http://www.historyofcomputer.org/
+Notas de aulas de Raimundo Nóbrega
+http://www.computersciencelab.com/ComputerHistory/History.htm
 
-// http://www.thocp.net/hardware/pascaline.htm
+http://www.thocp.net/hardware/pascaline.htm
 
+////
 
 === Recapitulando
 
