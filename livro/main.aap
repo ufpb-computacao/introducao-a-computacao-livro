@@ -1,9 +1,18 @@
 all : pdf
 
-pdf: indice-remissivo.txt livro.txt prefacio.txt capitulos/*.txt
-  :sys ~/ambiente/asciidoc-8.6.8/a2x.py -v -f pdf -a docinfo1 --dblatex-opts "-P insert.xref.page.number=yes" livro.txt
+pdf: indice-remissivo.asc livro.asc prefacio.asc capitulos/*.asc
+  :sys ~/ambiente/asciidoc-8.6.8/a2x.py -v -f pdf --icons -a docinfo1 --dblatex-opts "-P insert.xref.page.number=yes" livro.asc
   :sys rm -v -f *.png
   :sys grep -n -E "TODO|FIXME" -r capitulos/ --color
 
-spell: capitulos/*.txt
-  :sys hunspell -D -p hunspell_pt_BR capitulos/*.txt
+
+pdf2: indice-remissivo.asc livro.asc prefacio.asc capitulos/*.asc
+  :sys ~/ambiente/asciidoc-8.6.8/a2x.py -v -f pdf -a docinfo1 --dblatex-opts "-P insert.xref.page.number=yes" --xsltproc-opts "--param geometry.options 'a4paper,inner=2.2in'" livro.asc
+  :sys rm -v -f *.png
+  :sys grep -n -E "TODO|FIXME" -r capitulos/ --color
+
+
+
+
+spell: capitulos/*.asc
+  :sys hunspell -D -p hunspell_pt_BR capitulos/*.asc
