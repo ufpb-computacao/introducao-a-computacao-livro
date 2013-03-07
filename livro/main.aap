@@ -1,9 +1,13 @@
 all : pdf
 
-pdf: indice-remissivo.asc livro.asc prefacio.asc capitulos/*.asc
-  :sys ~/ambiente/asciidoc-8.6.8/a2x.py -v -f pdf --icons -a docinfo1 --dblatex-opts "-P insert.xref.page.number=yes" livro.asc
+pdf: *.asc capitulos/*.asc
+  :sys ~/ambiente/asciidoc-8.6.8/a2x.py -v -f pdf --icons -a docinfo1 \
+    --dblatex-opts "-T computacaostyle" \
+    livro.asc
+
   :sys rm -v -f *.png
   :sys grep -n -E "TODO|FIXME" -r capitulos/ --color
+
 
 
 pdf2: indice-remissivo.asc livro.asc prefacio.asc capitulos/*.asc
