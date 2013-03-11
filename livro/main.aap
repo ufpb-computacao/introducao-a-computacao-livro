@@ -1,7 +1,7 @@
-all : pdf
+all: pdf
 
 pdf: *.asc capitulos/*.asc
-  :sys ~/ambiente/asciidoc-8.6.8/a2x.py -v -f pdf --icons -a docinfo1 \
+  :sys ~/ambiente/asciidoc-8.6.8/a2x.py -v -f pdf --icons -a docinfo1  \
     --dblatex-opts "-T computacaostyle" \
     livro.asc
 
