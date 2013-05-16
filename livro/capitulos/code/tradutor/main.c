@@ -6,6 +6,6 @@ int main(){
   a = soma(2, 3);
   printf("Soma = %d\n", a);
   b = subtrai(4, 3);
-  printf("Subtração = %d\n", a);
+  printf("Subtração = %d\n", b);
 }
 
