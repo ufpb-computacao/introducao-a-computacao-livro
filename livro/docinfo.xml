@@ -72,6 +72,16 @@
     </simpara>
   </legalnotice>
 
+<chapter><title>Some Chapter</title>
+<abstract>
+<para>
+In brief, &hellip;
+</para>
+</abstract>
+<para>
+In this chapter, &hellip;
+</para>
+</chapter>
   
     <mediaobject role="cover">
       <imageobject>
