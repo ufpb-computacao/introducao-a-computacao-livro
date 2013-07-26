@@ -72,12 +72,6 @@
     </simpara>
   </legalnotice>
 
-<abstract>
-<para>
-Descrição do livro vem aqui.
-</para>
-</abstract>
-  
     <mediaobject role="cover">
       <imageobject>
         <imagedata fileref="images/cover.png" format="PNG" align="center" scalefit="1" />
