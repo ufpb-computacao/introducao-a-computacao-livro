@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.3.1 r9886"
+   sodipodi:docname="figura5.svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="648.61442"
+     inkscape:cy="630.36724"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1301"
+     inkscape:window-height="672"
+     inkscape:window-x="65"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Camada 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       style="font-size:36px;font-style:normal;font-weight:bold;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold"
+       x="461.2832"
+       y="276.64789"
+       id="text2985"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/santana/asciibook/introducao-a-computacao-livro/livro/images/sistema-de-numeracao/figura5.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan2987"
+         x="461.2832"
+         y="276.64789"
+         style="text-align:end;text-anchor:end;font-weight:normal;-inkscape-font-specification:Sans">1  0  1<tspan
+   style="font-size:65.00091553000000033%;text-align:end;text-anchor:end;baseline-shift:sub;font-weight:normal;-inkscape-font-specification:Sans"
+   id="tspan3059">2</tspan></tspan><tspan
+         sodipodi:role="line"
+         x="461.2832"
+         y="321.64789"
+         id="tspan2989"
+         style="text-align:end;text-anchor:end;font-weight:normal;-inkscape-font-specification:Sans">1  1  0<tspan
+   style="font-size:65.00091553000000033%;text-align:end;text-anchor:end;baseline-shift:sub;font-weight:normal;-inkscape-font-specification:Sans"
+   id="tspan3057">2</tspan></tspan><tspan
+         sodipodi:role="line"
+         x="473.79883"
+         y="366.64789"
+         id="tspan2991"
+         style="text-align:end;text-anchor:end;font-weight:normal;-inkscape-font-specification:Sans">0  0  0  </tspan><tspan
+         sodipodi:role="line"
+         x="473.79883"
+         y="411.64789"
+         style="text-align:end;text-anchor:end;font-weight:normal;-inkscape-font-specification:Sans"
+         id="tspan3065">1  0  1      </tspan><tspan
+         sodipodi:role="line"
+         x="473.79883"
+         y="456.64789"
+         style="text-align:end;text-anchor:end;font-weight:normal;-inkscape-font-specification:Sans"
+         id="tspan3067">1  0  1          </tspan><tspan
+         sodipodi:role="line"
+         x="461.2832"
+         y="501.64789"
+         style="text-align:end;text-anchor:end;font-weight:normal;-inkscape-font-specification:Sans"
+         id="tspan3069">1  1  1  1  0<tspan
+   style="font-size:65%;baseline-shift:sub;font-weight:normal;-inkscape-font-specification:Sans"
+   id="tspan3071">2</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:36px;font-style:normal;font-weight:bold;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold"
+       x="134.28572"
+       y="322.36218"
+       id="text2997"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/santana/asciibook/introducao-a-computacao-livro/livro/images/sistema-de-numeracao/figura5.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan2999"
+         x="134.28572"
+         y="322.36218"
+         style="font-weight:normal;-inkscape-font-specification:Sans">x</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.91930336px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 167.14285,335.21932 310.2793,-4.28571 0,0"
+       id="path3005"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/santana/asciibook/introducao-a-computacao-livro/livro/images/sistema-de-numeracao/figura5.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/santana/asciibook/introducao-a-computacao-livro/livro/images/sistema-de-numeracao/figura5.png"
+       inkscape:connector-curvature="0"
+       id="path3073"
+       d="m 167.14285,467.21932 310.2793,-4.28571 0,0"
+       style="fill:none;stroke:#000000;stroke-width:0.91930336px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <text
+       xml:space="preserve"
+       style="font-size:36px;font-style:normal;font-weight:bold;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold"
+       x="565.68542"
+       y="271.51425"
+       id="text3075"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/santana/asciibook/introducao-a-computacao-livro/livro/images/sistema-de-numeracao/figura5.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan3077"
+         x="565.68542"
+         y="271.51425"
+         style="font-weight:normal;-inkscape-font-specification:Sans">--&gt; 5<tspan
+   style="font-size:65.00091553000000033%;baseline-shift:sub;font-weight:normal;-inkscape-font-specification:Sans"
+   id="tspan3079">10</tspan></tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text3081"
+       y="320.00159"
+       x="564.67529"
+       style="font-size:36px;font-style:normal;font-weight:bold;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold"
+       xml:space="preserve"
+       inkscape:export-filename="/home/santana/asciibook/introducao-a-computacao-livro/livro/images/sistema-de-numeracao/figura5.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         y="320.00159"
+         x="564.67529"
+         id="tspan3083"
+         sodipodi:role="line"
+         style="font-weight:normal;-inkscape-font-specification:Sans">--&gt; 6<tspan
+   id="tspan3085"
+   style="font-size:65.00091553000000033%;baseline-shift:sub;font-weight:normal;-inkscape-font-specification:Sans">10</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:36px;font-style:normal;font-weight:bold;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold"
+       x="562.73621"
+       y="492.73767"
+       id="text3087"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/santana/asciibook/introducao-a-computacao-livro/livro/images/sistema-de-numeracao/figura5.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan3089"
+         x="562.73621"
+         y="492.73767"
+         style="font-weight:normal;-inkscape-font-specification:Sans">--&gt; 30<tspan
+   style="font-size:65.00091553000000033%;baseline-shift:sub;font-weight:normal;-inkscape-font-specification:Sans"
+   id="tspan3091">10</tspan></tspan></text>
+  </g>
+</svg>
