@@ -9,7 +9,7 @@
     <revision>
       <revnumber>v1.0</revnumber>
       <date>Março 2013</date>
-      <authorinitials>Gilberto Farias, Eduardo Santana</authorinitials>
+      <authorinitials>Gilberto Farias , Eduardo Santana</authorinitials>
       <revremark>
         Primeira versão do livro
       </revremark>
@@ -21,6 +21,7 @@
     <author>
       <firstname>Gilberto</firstname>
       <surname>Farias</surname>
+      <othername>Sousa Filho</othername>
       <affiliation>
         <jobtitle>Professor</jobtitle>
         <orgname>Universidade Federal da Paraíba</orgname>
