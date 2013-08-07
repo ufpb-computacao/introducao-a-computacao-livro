@@ -9,8 +9,8 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="210mm"
-   height="297mm"
+   width="597.80133"
+   height="131.9687"
    id="svg2"
    version="1.1"
    inkscape:version="0.48.3.1 r9886"
@@ -25,16 +25,20 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.7"
-     inkscape:cx="489.74245"
-     inkscape:cy="795.6812"
+     inkscape:cx="356.64228"
+     inkscape:cy="115.47667"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1301"
-     inkscape:window-height="672"
+     inkscape:window-height="674"
      inkscape:window-x="65"
      inkscape:window-y="24"
-     inkscape:window-maximized="1" />
+     inkscape:window-maximized="1"
+     fit-margin-top="5"
+     fit-margin-right="5"
+     fit-margin-bottom="5"
+     fit-margin-left="5" />
   <metadata
      id="metadata7">
     <rdf:RDF>
@@ -43,14 +47,15 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
   <g
      inkscape:label="Camada 1"
      inkscape:groupmode="layer"
-     id="layer1">
+     id="layer1"
+     transform="translate(-133.10017,-240.18896)">
     <text
        xml:space="preserve"
        style="font-size:36px;font-style:normal;font-weight:bold;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold"
@@ -66,9 +71,9 @@
          x="190"
          y="276.64789"
          style="font-weight:normal;-inkscape-font-specification:Sans">0<tspan
-   style="font-size:65.00091553000000033%;baseline-shift:super;font-weight:normal;-inkscape-font-specification:Sans"
+   style="font-size:65.00091553%;font-weight:normal;baseline-shift:super;-inkscape-font-specification:Sans"
    id="tspan2993">1</tspan>  1<tspan
-   style="font-size:65.00091553000000033%;baseline-shift:super;font-weight:normal;-inkscape-font-specification:Sans"
+   style="font-size:65.00091553%;font-weight:normal;baseline-shift:super;-inkscape-font-specification:Sans"
    id="tspan2995">1</tspan> 1   1   0   0</tspan><tspan
          sodipodi:role="line"
          x="190"
