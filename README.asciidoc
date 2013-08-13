@@ -40,8 +40,8 @@ Em seguida, podemos utilizar o comando 'grep' para encontrar estas anotações:
 
  grep -n -E "TODO|FIXME" -r capitulos/ --color
  
- === Alteração fora da versão
+=== Alteração fora da versão
  
- Esta alteração não faz parte da versão v1.0.0
+Esta alteração não faz parte da versão v1.0.0
 
 
