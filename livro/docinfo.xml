@@ -1,17 +1,24 @@
-
 <!--
   rudder-doc-docinfo.xml
   DocBook document information file for rudder-doc.txt.
 -->
-  <edition>v1.0.0</edition>
+  <edition>v1.0.1</edition>
 
   <revhistory>
+    <revision>
+      <revnumber>v1.0.1</revnumber>
+      <date>Agosto 2013</date>
+      <authorinitials>Eduardo Santana</authorinitials>
+      <revremark>
+        Revisão do livro após voltar da gráfica.
+      </revremark>
+    </revision>
     <revision>
       <revnumber>v1.0.0</revnumber>
       <date>Agosto 2013</date>
       <authorinitials>Gilberto Farias, Eduardo Santana</authorinitials>
       <revremark>
-        Primeira versão do livro
+        Primeira versão do livro.
       </revremark>
     </revision>
   </revhistory>
@@ -39,5 +46,14 @@
     <year>2013</year>
     <holder>UAB</holder>
   </copyright>
+
+  <legalnotice>
+    <simpara>
+      Autores: Gilberto Farias de Sousa Filho e Eduardo de Santana Medeiros Alexandre.
+    </simpara>
+    <simpara>
+      Revisores: Danielle Rousy Dias da Silva e Camyle de Araújo Silva.
+    </simpara>
+  </legalnotice>
   
 
