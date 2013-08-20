@@ -14,7 +14,10 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.47 r22583"
-   sodipodi:docname="ponto-fixo.svg">
+   sodipodi:docname="ponto-fixo.svg"
+   inkscape:export-filename="/home/ufpbvirtual/.gvfs/sftp para eduardo em producao.virtual.ufpb.br/home/eduardo/gitrepos/introducao-a-computacao-livro/livro/capitulos/images/sistema-de-numeracao/ponto-fixo.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
   <defs
      id="defs4">
     <inkscape:perspective
@@ -51,7 +54,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
