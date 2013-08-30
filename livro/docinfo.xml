@@ -2,9 +2,20 @@
   rudder-doc-docinfo.xml
   DocBook document information file for rudder-doc.txt.
 -->
-  <edition>v1.0.3</edition>
+  <edition>v1.0.4</edition>
 
   <revhistory>
+
+
+    <revision>
+      <revnumber>v1.0.4</revnumber>
+      <date>26/Agosto/2013</date>
+      <authorinitials>Eduardo</authorinitials>
+      <revremark>
+        Inclusão de exercícios no capítulo 3. Criação de capítulo com respostas. Inclusão de seção atividades no prefácio.
+      </revremark>
+    </revision>
+
 
     <revision>
       <revnumber>v1.0.3</revnumber>
