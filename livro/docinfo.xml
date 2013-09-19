@@ -2,9 +2,19 @@
   rudder-doc-docinfo.xml
   DocBook document information file for rudder-doc.txt.
 -->
-  <edition>v1.0.4</edition>
+  <edition>v1.0.5</edition>
 
   <revhistory>
+
+    <revision>
+      <revnumber>v1.0.5</revnumber>
+      <date>2/Setembro/2013</date>
+      <authorinitials>Eduardo</authorinitials>
+      <revremark>
+        Correção da tabela ASCII, capítulo 2.
+      </revremark>
+    </revision>
+
 
 
     <revision>
