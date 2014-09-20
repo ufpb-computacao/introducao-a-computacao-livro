@@ -11,18 +11,18 @@
       <date>2/Setembro/2013</date>
       <authorinitials>Eduardo</authorinitials>
       <revremark>
-        Correção da tabela ASCII, capítulo 2.
+<ulink url="{gitrepo}/issues/13">Correção na tabela 2.4;</ulink>
       </revremark>
     </revision>
-
-
 
     <revision>
       <revnumber>v1.0.4</revnumber>
       <date>2/Setembro/2013</date>
       <authorinitials>Eduardo</authorinitials>
       <revremark>
-        Inclusão de exercícios no capítulo 3. Criação de capítulo com respostas. Inclusão de seção atividades no prefácio.
+        Inclusão de exercícios no capítulo 3. 
+        Criação de capítulo com respostas. 
+        Inclusão de seção atividades no prefácio.
       </revremark>
     </revision>
 
