@@ -30,12 +30,12 @@
       <date>2/Setembro/2013</date>
       <authorinitials>Eduardo</authorinitials>
       <revremark>
-        Inclusão de exercícios no capítulo 3. 
-        Criação de capítulo com respostas. 
-        Inclusão de seção atividades no prefácio.
+<ulink url="{gitrepo}/commit/6869830fb27177808a41d262af00fbb7a7855381#diff-04910aabdf9c0acbcf62a340da43fdc5">
+Inclusão de exercícios no capítulo 3;
+Criação de capítulo com respostas;</ulink>
+Inclusão de seção atividades no prefácio;
       </revremark>
     </revision>
-
 
     <revision>
       <revnumber>v1.0.3</revnumber>
@@ -45,7 +45,6 @@
         Melhoria de imagens.
       </revremark>
     </revision>
-
 
     <revision>
       <revnumber>v1.0.2</revnumber>
