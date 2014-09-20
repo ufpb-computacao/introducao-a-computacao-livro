@@ -7,6 +7,16 @@
   <revhistory>
 
     <revision>
+      <revnumber>v1.0.6</revnumber>
+      <date>20/9/2014</date>
+      <authorinitials>Eduardo</authorinitials>
+      <revremark>
+<ulink url="{gitrepo}/issues/18">Criando links para issues no histórico de revisão;</ulink>
+      </revremark>
+    </revision>
+
+
+    <revision>
       <revnumber>v1.0.5</revnumber>
       <date>2/Setembro/2013</date>
       <authorinitials>Eduardo</authorinitials>
