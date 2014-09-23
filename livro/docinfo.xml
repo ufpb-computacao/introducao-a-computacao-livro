@@ -1,103 +1,109 @@
-<!--
-  rudder-doc-docinfo.xml
-  DocBook document information file for rudder-doc.txt.
--->
-  <edition>v1.0.5</edition>
+<edition>{edition}</edition>
 
-  <revhistory>
+<revhistory>
 
-    <revision>
-      <revnumber>v1.0.6</revnumber>
-      <date>20/9/2014</date>
-      <authorinitials>Eduardo</authorinitials>
-      <revremark>
+  <revision>
+    <revnumber>v1.0.7</revnumber>
+    <date>23/9/2014</date>
+    <authorinitials>Eduardo</authorinitials>
+    <revremark>
+    
+    </revremark>
+  </revision>
+
+
+  <revision>
+    <revnumber>v1.0.6</revnumber>
+    <date>20/9/2014</date>
+    <authorinitials>Eduardo</authorinitials>
+    <revremark>
 <ulink url="{gitrepo}/issues/18">Criando links para issues no histórico de revisão;</ulink>
-      </revremark>
-    </revision>
+    </revremark>
+  </revision>
 
 
-    <revision>
-      <revnumber>v1.0.5</revnumber>
-      <date>2/Setembro/2013</date>
-      <authorinitials>Eduardo</authorinitials>
-      <revremark>
+  <revision>
+    <revnumber>v1.0.5</revnumber>
+    <date>2/Setembro/2013</date>
+    <authorinitials>Eduardo</authorinitials>
+    <revremark>
 <ulink url="{gitrepo}/issues/13">Correção na tabela 2.4;</ulink>
-      </revremark>
-    </revision>
+    </revremark>
+  </revision>
 
-    <revision>
-      <revnumber>v1.0.4</revnumber>
-      <date>2/Setembro/2013</date>
-      <authorinitials>Eduardo</authorinitials>
-      <revremark>
+  <revision>
+    <revnumber>v1.0.4</revnumber>
+    <date>2/Setembro/2013</date>
+    <authorinitials>Eduardo</authorinitials>
+    <revremark>
 <ulink url="{gitrepo}/commit/6869830fb27177808a41d262af00fbb7a7855381#diff-04910aabdf9c0acbcf62a340da43fdc5">
 Inclusão de exercícios no capítulo 3;
 Criação de capítulo com respostas;</ulink>
 Inclusão de seção atividades no prefácio;
-      </revremark>
-    </revision>
+    </revremark>
+  </revision>
 
-    <revision>
-      <revnumber>v1.0.3</revnumber>
-      <date>26/Agosto/2013</date>
-      <authorinitials>Eduardo</authorinitials>
-      <revremark>
-        Melhoria de imagens.
-      </revremark>
-    </revision>
+  <revision>
+    <revnumber>v1.0.3</revnumber>
+    <date>26/Agosto/2013</date>
+    <authorinitials>Eduardo</authorinitials>
+    <revremark>
+      Melhoria de imagens.
+    </revremark>
+  </revision>
 
-    <revision>
-      <revnumber>v1.0.2</revnumber>
-      <date>Agosto 2013</date>
-      <authorinitials>Eduardo Santana</authorinitials>
-      <revremark>
-        Inclusão do ISBN e coloração de imagens.
-      </revremark>
-    </revision>
+  <revision>
+    <revnumber>v1.0.2</revnumber>
+    <date>Agosto 2013</date>
+    <authorinitials>Eduardo Santana</authorinitials>
+    <revremark>
+      Inclusão do ISBN e coloração de imagens.
+    </revremark>
+  </revision>
 
-    <revision>
-      <revnumber>v1.0.1</revnumber>
-      <date>Agosto 2013</date>
-      <authorinitials>Gilberto Farias, Eduardo Santana</authorinitials>
-      <revremark>
-        Revisão do livro após voltar da gráfica.
-      </revremark>
-    </revision>
-    <revision>
-      <revnumber>v1.0.0</revnumber>
-      <date>Agosto 2013</date>
-      <authorinitials>Gilberto Farias, Eduardo Santana</authorinitials>
-      <revremark>
-        Primeira versão do livro.
-      </revremark>
-    </revision>
-  </revhistory>
-
-
-  <authorgroup>
-    <author>
-      <firstname>Gilberto</firstname>
-      <surname>Farias</surname>
-      <othername>Sousa Filho</othername>
-      <affiliation>
-        <jobtitle>Professor</jobtitle>
-        <orgname>Universidade Federal da Paraíba</orgname>
-      </affiliation>
-      <authorblurb>
-        <para>
-          Principal contribuidor do livro.
-        </para>
-      </authorblurb>
-    </author>
-    <author>
-      <firstname>Eduardo</firstname>
-      <surname>Alexandre</surname>
-      <othername>de Santana Medeiros</othername>
-    </author>
-
-  </authorgroup>
-  
+  <revision>
+    <revnumber>v1.0.1</revnumber>
+    <date>Agosto 2013</date>
+    <authorinitials>Gilberto Farias, Eduardo Santana</authorinitials>
+    <revremark>
+      Revisão do livro após voltar da gráfica.
+    </revremark>
+  </revision>
+  <revision>
+    <revnumber>v1.0.0</revnumber>
+    <date>Agosto 2013</date>
+    <authorinitials>Gilberto Farias, Eduardo Santana</authorinitials>
+    <revremark>
+      Primeira versão do livro.
+    </revremark>
+  </revision>
+</revhistory>
 
 
-  
+<authorgroup>
+  <author>
+    <firstname>Gilberto</firstname>
+    <surname>Farias</surname>
+    <othername>Sousa Filho</othername>
+    <affiliation>
+      <jobtitle>Professor</jobtitle>
+      <orgname>Universidade Federal da Paraíba</orgname>
+    </affiliation>
+    <authorblurb>
+      <para>
+        Principal contribuidor do livro.
+      </para>
+    </authorblurb>
+  </author>
+  <author>
+    <firstname>Eduardo</firstname>
+    <surname>Alexandre</surname>
+    <othername>de Santana Medeiros</othername>
+  </author>
+
+</authorgroup>
+
+
+
+
 
