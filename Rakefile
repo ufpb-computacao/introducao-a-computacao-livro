@@ -7,8 +7,7 @@ require 'open3'
 task :default => [:wip]
 
 SOURCE_FILES = FileList['livro/livro.asc', 'livro/capitulos/*']
-CURRENT_BRANCH=`git rev-parse --abbrev-ref HEAD`.strip
-@RELEASE_DIR = "releases/#{CURRENT_BRANCH}"
+@RELEASE_DIR = 'releases/current'
 @BOOK_SOURCE_DIR = 'livro'
 @BOOK_SOURCE = 'livro/livro.asc'
 @BOOK_TARGET = 'livro/livro.pdf'
@@ -19,17 +18,10 @@ RELEASE_BOOK  = "#{@RELEASE_DIR}/#{@BOOK_SOURCE_DIR}/livro.pdf"
 RELEASE_WIP_ADOC =  "#{@RELEASE_DIR}/#{@BOOK_SOURCE_DIR}/wip.adoc"
 RELEASE_WIP_PDF  =  "#{@RELEASE_DIR}/#{@BOOK_SOURCE_DIR}/wip.pdf"
 OPEN_PDF_CMD=`git config --get producao.pdfviewer`.strip
-A2X_COMMAND="-v -k -f pdf --icons -a docinfo1 -a edition=`git describe` -a lang=pt-BR -d book --dblatex-opts '-T computacao -P latex.babel.language=brazilian -P preface.tocdepth=1' -a livro-pdf"
-A2X_EPUB_COMMAND="-v -k -f epub --icons -a docinfo1 -a edition=`git describe` -a lang=pt-BR -d book "
+A2X_COMMAND="-v -k -f pdf --icons -a docinfo1 -a edition=`git describe` -a lang=pt-BR -d book --dblatex-opts '-T computacao -P latex.babel.language=brazilian' -a livro-pdf"
 PROJECT_NAME = File.basename(Dir.getwd)
 LIVRO_URL = `git config --get livro.url`.strip
 GITHUB_REPO = `git config remote.origin.url`.strip.gsub('git@github.com:','').gsub('.git','')
-
-# release
-REPOSITORIO_PATH=`git rev-parse --show-toplevel`.strip
-#@RELEASE_DIR = ''
-@tag = ''
-@SEJDA_BIN = '/home/santana/ambiente/sejda/bin/sejda-console'
 
 directory @RELEASE_DIR
 
@@ -38,7 +30,7 @@ CLEAN.include('releases')
 desc "Sync, build and open wip file"
 task :wip => [WIP_ADOC, "sync", "wip:build", "wip:open"]
 task :edit => ["wip:edit"]
-task :epub
+
 
 namespace "wip" do
 
@@ -51,10 +43,8 @@ namespace "wip" do
     Rake::Task["wip:new"].invoke
   end
 
-  desc "build book from #{@RELEASE_DIR}"
-  task :build => [WIP_ADOC, :sync] do
-    DRAFT_COMMAND = "--dblatex-opts '-P draft.mode=yes'"
-    system "#{@A2X_BIN} #{A2X_COMMAND} #{DRAFT_COMMAND} #{@RELEASE_DIR}/#{@BOOK_SOURCE_DIR}/wip.adoc"
+  file RELEASE_WIP_PDF do
+    system "#{@A2X_BIN} #{A2X_COMMAND} #{@RELEASE_DIR}/#{@BOOK_SOURCE_DIR}/wip.adoc"
   end
 
   desc "Open wip pdf"
@@ -64,7 +54,7 @@ namespace "wip" do
   end
 
   desc "Open docbook xml from wip build"
-  task "xml" => ["#{@RELEASE_DIR}/#{@BOOK_SOURCE_DIR}/wip.xml"] do
+  task "xml" do
     system "#{OPEN_PDF_CMD} #{@RELEASE_DIR}/#{@BOOK_SOURCE_DIR}/wip.xml"
   end
 
@@ -73,15 +63,12 @@ namespace "wip" do
     system "gvim #{WIP_ADOC}"
   end
 
-
-  desc "build wip epub book"
-  task :epub do
-    system "#{@A2X_BIN} #{A2X_EPUB_COMMAND} #{@RELEASE_DIR}/#{@BOOK_SOURCE_DIR}/wip.adoc"
+  desc "build book from #{@RELEASE_DIR}"
+  task :build => [WIP_ADOC, :sync] do
+    system "#{@A2X_BIN} #{A2X_COMMAND} #{@RELEASE_DIR}/#{@BOOK_SOURCE_DIR}/wip.adoc"
   end
 
-
 end
-
 
 
 
@@ -207,8 +194,7 @@ end
 
 desc "Download new Rakefile"
 task :uprake do
-  `wget --output-document=Rakefile https://raw.githubusercontent.com/edusantana/asciidoc-book-template-with-rake-and-github/master/Rakefile`
-  `wget --output-document=livro/capitulos/feedback.adoc https://raw.githubusercontent.com/edusantana/asciidoc-book-template-with-rake-and-github/master/livro/capitulos/feedback.adoc`
+  `wget --output-document=Rakefile https://raw.githubusercontent.com/edusantana/novo-livro/master/Rakefile`
 end
 
 
@@ -239,14 +225,14 @@ FileList['livro/images/**/*.dot'].each do |source|
 end
 
 namespace "github" do
-  desc "List issues from github milestone. Default milestone state is closed, can also be all."
+  desc "List issues from github milestone"
   task :issues, [:milestone] do |t,args|
     puts "Acessing: #{GITHUB_REPO} milestone=#{args.milestone}"
     require 'octokit'
 #    require 'highline/import'
     client = Octokit::Client.new
     milestone = nil
-    milestones = client.list_milestones(GITHUB_REPO, state: 'all', sort: 'created', direction: 'desc')
+    milestones = client.list_milestones(GITHUB_REPO, state: "all")
     opcoes = milestones.map {|m| m[:title]}
 
     if (args.milestone) then
@@ -257,23 +243,13 @@ namespace "github" do
         end
       end
     else
-      milestone = milestones[0]
+      milestone = milestones[-1]
     end
-    puts "Milestone: #{milestone[:title]} #{milestone[:state].upcase}"
+    puts "Milestone: #{milestone[:title]}"
 
     puts ""
     puts "Para adicionar ao docinfo.xml:\n"
-    issues = client.list_issues(GITHUB_REPO, milestone:milestone[:number], sort: 'created', direction: 'asc', state:'all')
-    open_issues = []
-    issues.each do |i|
-      if (i[:state] == 'open') then
-        open_issues << i[:number]
-      end
-    end
-    if (open_issues.size > 0) then
-      puts "Open issues: #{open_issues}"
-      puts ""
-    end
+    issues = client.list_issues(GITHUB_REPO, state:'Closed', milestone:milestone[:number], direction:'asc')
     issues.each do |i|
       puts "<ulink url=\"{gitrepo}/issues/#{i[:number]}\">#{i[:title]};</ulink>"
     end
@@ -283,60 +259,5 @@ namespace "github" do
       puts "- #{i[:title]} (##{i[:number]});"
     end
 
-    puts ""
-    puts "Para commits:"
-    issues.each do |i|
-      puts "#{i[:title]} closes ##{i[:number]}"
-    end
-
-
   end
-end
-
-
-namespace "release" do
-
-  desc "Archive files from git tag. If not tag is passed, the last tag applied will be used."
-  task :archive, [:tag] do |t, args|
-    last_tag = `git describe --abbrev=0`.strip
-    args.with_defaults(:tag => last_tag)
-    @tag = args.tag
-    @RELEASE_DIR = "releases/#{args.tag}"
-    Dir.chdir(REPOSITORIO_PATH) do
-      system "git archive --format=tar --prefix=#{@RELEASE_DIR}/ #{@tag} | (tar xf -) "
-    end
-  end
-
-  desc "Build book release. If not tag is passed, the last tag applied will be used."
-  task :build, [:tag] do |t, args|
-    last_tag = `git describe --abbrev=0`.strip
-    args.with_defaults(:tag => last_tag)
-    @tag = args.tag
-    @RELEASE_DIR = "releases/#{args.tag}"
-    release_dir = "releases/#{args.tag}"
-    target_file = "releases/#{@PROJECT_NAME}-#{@tag}.pdf"
-    editora_file = "#{release_dir}/livro/editora/editora.pdf"
-    livro_source = "#{release_dir}/livro/livro.asc"
-    livro_pdf = "#{release_dir}/livro/livro.pdf"
-
-    directory release_dir
-    file livro_source => [release_dir]
-    file livro_pdf => [livro_source] do
-      Dir.chdir(@RELEASE_DIR) do
-        @A2X_COMMAND="-v -k -f pdf --icons -a docinfo1 -a edition=#{@tag} -a lang=pt-BR -d book --dblatex-opts '-T computacao -P latex.babel.language=brazilian' -a livro-pdf"
-        system "#{@A2X_BIN} #{@A2X_COMMAND} livro/livro.asc"
-      end
-    end
-    file target_file => [livro_pdf] do
-      if File.exist? editora_file then
-        system "#{@SEJDA_BIN} merge -f #{editora_file} #{livro_pdf} -o #{target_file}"
-      else
-        mv livro_pdf, target_file
-      end
-    end
-
-    Rake::Task[target_file].invoke()
-
-  end # build
-
 end
