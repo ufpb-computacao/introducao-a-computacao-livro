@@ -3,6 +3,17 @@
 <revhistory>
 
   <revision>
+    <revnumber>v1.0.8</revnumber>
+    <date>16/10/2014</date>
+    <authorinitials>Eduardo</authorinitials>
+    <revremark>
+<ulink url="{gitrepo}/issues/20">cap3 Reorganização das seções de Aritmética Binária e Complemento de 2;</ulink>
+<ulink url="{gitrepo}/issues/21">Inclusão do ISBN;</ulink>
+    </revremark>
+  </revision>
+
+
+  <revision>
     <revnumber>v1.0.7</revnumber>
     <date>23/9/2014</date>
     <authorinitials>Eduardo</authorinitials>
