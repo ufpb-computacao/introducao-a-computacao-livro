@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="253.15254"
+   height="237.05084"
+   viewBox="0 0 253.15254 237.05084"
+   id="svg3131"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="topologia-anel.svg">
+  <metadata
+     id="metadata3141">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs3139" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1301"
+     inkscape:window-height="744"
+     id="namedview3137"
+     showgrid="false"
+     inkscape:zoom="1.2291667"
+     inkscape:cx="8.5879493"
+     inkscape:cy="210.89617"
+     inkscape:window-x="339"
+     inkscape:window-y="1104"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer2"
+     fit-margin-top="5"
+     fit-margin-left="5"
+     fit-margin-bottom="5"
+     fit-margin-right="5" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="computadores"
+     style="display:inline"
+     transform="translate(103.30508,94.016949)">
+    <path
+       sodipodi:type="arc"
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path3295"
+       sodipodi:cx="0.28763667"
+       sodipodi:cy="47.137089"
+       sodipodi:rx="81.976448"
+       sodipodi:ry="81.976448"
+       d="m 82.264085,47.137089 a 81.976448,81.976448 0 1 1 -163.952896,0 81.976448,81.976448 0 1 1 163.952896,0 z"
+       transform="translate(23.712363,-23.137089)" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer1"
+     inkscape:label="topologia"
+     transform="translate(103.30508,94.016949)" />
+  <path
+     d="m 143.30508,33 c 2.21,0 3.98,-1.79 3.98,-4 l 0.02,-20 c 0,-2.21 -1.79,-4 -4,-4 h -32 c -2.21,0 -4,1.79 -4,4 v 20 c 0,2.21 1.79,4 4,4 h -8 v 4 h 48 v -4 h -8 z m -32,-24 h 32 v 20 h -32 V 9 z"
+     id="path3135"
+     inkscape:connector-curvature="0" />
+  <path
+     d="m 48.924217,73.067797 c 2.21,0 3.98,-1.79 3.98,-4 l 0.02,-20 c 0,-2.21 -1.79,-4 -4,-4 h -32 c -2.21,0 -4,1.79 -4,4 v 20 c 0,2.21 1.79,4 4,4 H 8.92422 v 4 h 47.999997 v -4 h -8 z m -32,-24 h 32 v 20 h -32 v -20 z"
+     id="path3135-4"
+     inkscape:connector-curvature="0" />
+  <path
+     d="m 237.27118,73.067797 c 2.21,0 3.98,-1.79 3.98,-4 l 0.02,-20 c 0,-2.21 -1.79,-4 -4,-4 h -32 c -2.21,0 -4,1.79 -4,4 v 20 c 0,2.21 1.79,4 4,4 h -8 v 4 h 48 v -4 h -8 z m -32,-24 h 32 v 20 h -32 v -20 z"
+     id="path3135-3"
+     inkscape:connector-curvature="0" />
+  <path
+     d="m 44.999995,169.47458 c 2.21,0 3.98,-1.79 3.98,-4 l 0.02,-20 c 0,-2.21 -1.79,-4 -4,-4 h -32 c -2.21,0 -4,1.79 -4,4 v 20 c 0,2.21 1.79,4 4,4 H 5 v 4 h 47.999995 v -4 h -8 z m -32,-24 h 32 v 20 h -32 v -20 z"
+     id="path3135-1"
+     inkscape:connector-curvature="0" />
+  <path
+     d="m 240.15254,169.47458 c 2.21,0 3.98,-1.79001 3.98,-4 l 0.02,-20 c 0,-2.21001 -1.79,-4 -4,-4 h -32 c -2.21,0 -4,1.78999 -4,4 v 20 c 0,2.20999 1.79,4 4,4 h -8 v 4 h 48 v -4 h -8 z m -32,-24 h 32 v 20 h -32 v -20 z"
+     id="path3135-5"
+     inkscape:connector-curvature="0" />
+  <path
+     d="m 143.30508,228.05085 c 2.21,0 3.98,-1.79 3.98,-4 l 0.02,-20 c 0,-2.21 -1.79,-4 -4,-4 h -32 c -2.21,0 -4,1.79 -4,4 v 20 c 0,2.21 1.79,4 4,4 h -8 v 4 h 48 v -4 h -8 z m -32,-24 h 32 v 20 h -32 v -20 z"
+     id="path3135-0"
+     inkscape:connector-curvature="0" />
+  <text
+     xml:space="preserve"
+     style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Sans"
+     x="127.50039"
+     y="112.55797"
+     id="text4103"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       id="tspan4105"
+       x="127.50039"
+       y="112.55797">Topologia</tspan><tspan
+       sodipodi:role="line"
+       x="127.50039"
+       y="137.55797"
+       id="tspan4107">em Anel</tspan></text>
+</svg>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="258.95712"
+   height="132.47696"
+   viewBox="0 0 258.95712 132.47696"
+   id="svg3131"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="topologia-anel.svg">
+  <metadata
+     id="metadata3141">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs3139" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1301"
+     inkscape:window-height="744"
+     id="namedview3137"
+     showgrid="false"
+     inkscape:zoom="2.4583333"
+     inkscape:cx="118.46922"
+     inkscape:cy="95.596911"
+     inkscape:window-x="339"
+     inkscape:window-y="1104"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg3131"
+     fit-margin-left="5"
+     fit-margin-top="5"
+     fit-margin-right="5"
+     fit-margin-bottom="5" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="computadores"
+     style="display:inline"
+     transform="translate(106.33001,-10.556939)">
+    <path
+       sodipodi:type="arc"
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path3295"
+       sodipodi:cx="0.28763667"
+       sodipodi:cy="47.137089"
+       sodipodi:rx="81.976448"
+       sodipodi:ry="81.976448"
+       d="m 82.264085,47.137089 c 0,45.274342 -36.702106,81.976451 -81.97644833,81.976451 -45.27434167,0 -81.97644767,-36.702109 -81.97644767,-81.976451 0,-5.005209 0.4584,-9.999901 1.369457,-14.921496"
+       transform="matrix(0.99591281,-0.09031988,0.09031988,0.99591281,18.724694,-22.781418)"
+       sodipodi:start="0"
+       sodipodi:end="3.3246348"
+       sodipodi:open="true" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer1"
+     inkscape:label="topologia"
+     transform="translate(106.33001,-10.556939)" />
+  <path
+     d="m 44.999996,51.883742 c 2.21,0 3.98,-1.79 3.98,-4 l 0.02,-20 c 0,-2.21 -1.79,-4 -4,-4 H 12.999997 c -2.21,0 -4,1.79 -4,4 v 20 c 0,2.21 1.79,4 4,4 H 5 v 4 h 47.999996 v -4 h -8 z m -31.999999,-24 h 31.999999 v 20 H 12.999997 v -20 z"
+     id="path3135-4"
+     inkscape:connector-curvature="0" />
+  <path
+     d="m 245.95712,51.883742 c 2.21,0 3.98,-1.79 3.98,-4 l 0.02,-20 c 0,-2.21 -1.79,-4 -4,-4 h -32 c -2.21,0 -4,1.79 -4,4 v 20 c 0,2.21 1.79,4 4,4 h -8 v 4 h 48 v -4 h -8 z m -32,-24 h 32 v 20 h -32 v -20 z"
+     id="path3135-3"
+     inkscape:connector-curvature="0" />
+  <path
+     d="m 72.431706,101.51086 c 2.21,0 3.98,-1.789998 3.98,-3.999998 l 0.02,-20 c 0,-2.21 -1.79,-4 -4,-4 h -32 c -2.21,0 -4,1.79 -4,4 v 20 c 0,2.21 1.79,3.999998 4,3.999998 h -7.999995 v 4 h 47.999995 v -4 h -8 z m -32,-23.999998 h 32 v 20 h -32 v -20 z"
+     id="path3135-1"
+     inkscape:connector-curvature="0" />
+  <path
+     d="m 217.55035,101.51086 c 2.21,0 3.98,-1.790008 3.98,-3.999998 l 0.02,-20 c 0,-2.21001 -1.79,-4 -4,-4 h -32 c -2.21,0 -4,1.78999 -4,4 v 20 c 0,2.20999 1.79,3.999998 4,3.999998 h -8 v 4 h 48 v -4 h -8 z m -32,-23.999998 h 32 v 20 h -32 v -20 z"
+     id="path3135-5"
+     inkscape:connector-curvature="0" />
+  <path
+     d="m 145.6012,123.47696 c 2.21,0 3.98,-1.79 3.98,-4 l 0.02,-19.999998 c 0,-2.21 -1.79,-4 -4,-4 h -32 c -2.21,0 -4,1.79 -4,4 v 19.999998 c 0,2.21 1.79,4 4,4 h -8 v 4 h 48 v -4 h -8 z m -32,-23.999998 h 32 v 19.999998 h -32 V 99.476962 z"
+     id="path3135-0"
+     inkscape:connector-curvature="0" />
+  <text
+     xml:space="preserve"
+     style="font-size:16.6452961px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Sans"
+     x="130.52487"
+     y="29.786098"
+     id="text4103"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       x="132.83311"
+       y="29.786098"
+       id="tspan4107">Bus ou </tspan><tspan
+       sodipodi:role="line"
+       x="130.52487"
+       y="50.592724"
+       id="tspan4149">Barramento</tspan></text>
+</svg>
