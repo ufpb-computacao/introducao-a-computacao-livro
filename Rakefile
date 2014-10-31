@@ -329,7 +329,18 @@ namespace "release" do
     file livro_source => [release_dir]
     file livro_pdf => [livro_source] do
       Dir.chdir(@RELEASE_DIR) do
-        @A2X_COMMAND="-v -k -f pdf --icons -a docinfo1 -a edition=#{@tag} -a lang=pt-BR -d book --dblatex-opts '-T computacao -P latex.babel.language=brazilian' -a livro-pdf"
+        prefacio_code_att = ""
+        PREFACIO_CODE_DIR = "#{@BOOK_SOURCE_DIR}/capitulos/code/prefacio"
+        if Dir.exist?(PREFACIO_CODE_DIR) then
+          Dir.chdir(PREFACIO_CODE_DIR) do
+            prefacio_code_file = Dir.glob("*").first
+            if (prefacio_code_file) then
+              prefacio_code_att = "-a prefacio-code=#{prefacio_code_file}"
+            end
+          end
+        end
+
+        @A2X_COMMAND="-v -k -f pdf --icons -a docinfo1 -a edition=#{@tag} -a lang=pt-BR -d book --dblatex-opts '-T computacao -P latex.babel.language=brazilian' -a livro-pdf #{prefacio_code_att}"
         system "#{@A2X_BIN} #{@A2X_COMMAND} livro/livro.asc"
       end
     end
