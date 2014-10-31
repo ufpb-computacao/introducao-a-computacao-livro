@@ -1,3 +1,4 @@
+[appendix]
 [[cap_respostas]]
 == Respostas das atividades
 
@@ -35,6 +36,3 @@ Sem respostas.
 
 Sem respostas.
 
-=== Capítulo 8
-
-Sem respostas.
