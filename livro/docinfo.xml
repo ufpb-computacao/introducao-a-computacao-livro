@@ -3,6 +3,16 @@
 <revhistory>
 
   <revision>
+    <revnumber>v1.1.1</revnumber>
+    <date>31/10/2014</date>
+    <authorinitials>Eduardo</authorinitials>
+    <revremark>
+<ulink url="{gitrepo}/issues/22">Atualização de imagens para impressão;</ulink>
+<ulink url="{gitrepo}/issues/23">Inclusão de mini-sumário na impressão;</ulink>
+    </revremark>
+  </revision>
+
+  <revision>
     <revnumber>v1.1.0</revnumber>
     <date>16/10/2014</date>
     <authorinitials>Eduardo</authorinitials>
