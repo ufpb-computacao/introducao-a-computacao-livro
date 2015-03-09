@@ -2,6 +2,15 @@
 
 <revhistory>
 
+<revision>
+  <revnumber>v1.1.2</revnumber>
+  <date>09/03/2015</date>
+  <authorinitials> Eduardo </authorinitials>
+  <revremark>
+<ulink url="{gitrepo}/issues/24">Correção ortográfica;</ulink>
+  </revremark>
+</revision>
+
   <revision>
     <revnumber>v1.1.1</revnumber>
     <date>31/10/2014</date>
