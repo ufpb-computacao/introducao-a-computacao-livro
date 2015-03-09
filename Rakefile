@@ -6,7 +6,7 @@ require 'open3'
 
 task :default => [:wip]
 
-SOURCE_FILES = FileList['livro/livro.asc', 'livro/capitulos/*']
+SOURCE_FILES = FileList['livro/livro.asc', 'livro/*']
 CURRENT_BRANCH=`git rev-parse --abbrev-ref HEAD`.strip
 @RELEASE_DIR = "releases/#{CURRENT_BRANCH}"
 @BOOK_SOURCE_DIR = 'livro'
@@ -54,13 +54,11 @@ namespace "wip" do
     Rake::Task["wip:new"].invoke
   end
 
-  EDITORA_PDF = "#{@BOOK_SOURCE_DIR}/editora/editora.pdf"
-  
   desc "build book from #{@RELEASE_DIR}"
   task :build => [WIP_ADOC, :sync] do
     DRAFT_COMMAND = "--dblatex-opts '-P draft.mode=yes'"
     prefacio_code_att = ""
-    PREFACIO_CODE_DIR = "#{@RELEASE_DIR}/#{@BOOK_SOURCE_DIR}/capitulos/code/prefacio"
+    PREFACIO_CODE_DIR = "#{@RELEASE_DIR}/#{@BOOK_SOURCE_DIR}/code/prefacio"
     if Dir.exist?(PREFACIO_CODE_DIR) then
       Dir.chdir(PREFACIO_CODE_DIR) do
         prefacio_code_file = Dir.glob("*").first
@@ -185,13 +183,13 @@ namespace "tag" do
     date = Date.today.strftime "%d/%m/%Y"
     history, s = Open3.capture2("git log --reverse --format='- %s. ' #{args.tag}..HEAD")
     revision = "\n
-    <revision>
-      <revnumber>#{edition}</revnumber>
-      <date>#{date}</date>
-      <authorinitials>#{authors}</authorinitials>
-      <revremark>
+<revision>
+  <revnumber>#{edition}</revnumber>
+  <date>#{date}</date>
+  <authorinitials>#{authors}</authorinitials>
+  <revremark>
 #{history}      </revremark>
-    </revision>\n\n"
+</revision>\n\n"
     puts revision
   end
 
@@ -232,18 +230,6 @@ FileList['livro/images/**/*.R'].each do |source|
     mv "Rplots.pdf","#{t.name}"
   end
   task :r => rpdf
-end
-
-desc "Build images from dot files"
-task :dot
-task :sync => :dot
-
-FileList['livro/images/**/*.dot'].each do |source|
-  epsfile = source.ext('eps')
-  file epsfile => source do |t|
-    sh "dot -Teps -o #{t.name} #{t.source}"
-  end
-  task :dot => epsfile
 end
 
 namespace "github" do
@@ -321,25 +307,31 @@ namespace "release" do
     @RELEASE_DIR = "releases/#{args.tag}"
     release_dir = "releases/#{args.tag}"
     target_file = "releases/#{PROJECT_NAME}-#{@tag}.pdf"
-    editora_file = "#{release_dir}/livro/editora/editora.pdf"
+    ficha_file = "#{release_dir}/livro/editora/ficha-#{args.tag}.pdf"
+    if File.exist?(ficha_file) then
+      editora_file = ficha_file
+    else
+      puts "Using 'editora.pdf' instead of ficha-#{args.tag}.pdf"
+      editora_file = "#{release_dir}/livro/editora/editora.pdf"
+    end
     livro_source = "#{release_dir}/livro/livro.asc"
     livro_pdf = "#{release_dir}/livro/livro.pdf"
+    
+    prefacio_code_att = ""
+    PREFACIO_CODE_DIR = "#{@RELEASE_DIR}/#{@BOOK_SOURCE_DIR}/code/prefacio"
+    if Dir.exist?(PREFACIO_CODE_DIR) then
+      Dir.chdir(PREFACIO_CODE_DIR) do
+        prefacio_code_file = Dir.glob("*").first
+        if (prefacio_code_file) then
+          prefacio_code_att = "-a prefacio-code=#{prefacio_code_file}"
+        end
+      end
+    end
 
     directory release_dir
     file livro_source => [release_dir]
     file livro_pdf => [livro_source] do
       Dir.chdir(@RELEASE_DIR) do
-        prefacio_code_att = ""
-        PREFACIO_CODE_DIR = "#{@BOOK_SOURCE_DIR}/capitulos/code/prefacio"
-        if Dir.exist?(PREFACIO_CODE_DIR) then
-          Dir.chdir(PREFACIO_CODE_DIR) do
-            prefacio_code_file = Dir.glob("*").first
-            if (prefacio_code_file) then
-              prefacio_code_att = "-a prefacio-code=#{prefacio_code_file}"
-            end
-          end
-        end
-
         @A2X_COMMAND="-v -k -f pdf --icons -a docinfo1 -a edition=#{@tag} -a lang=pt-BR -d book --dblatex-opts '-T computacao -P latex.babel.language=brazilian' -a livro-pdf #{prefacio_code_att}"
         system "#{@A2X_BIN} #{@A2X_COMMAND} livro/livro.asc"
       end
